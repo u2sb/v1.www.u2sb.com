@@ -24,7 +24,7 @@ steps:
       npm install pnpm -g
       pnpm install
       pnpm run build
-      cd public
+      cd dist
       touch .nojekyll
       git config --global user.email "$(EMAIL)"
       git config --global user.name "$(USER)"
