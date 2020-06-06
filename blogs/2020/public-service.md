@@ -1,0 +1,36 @@
+---
+title: 公共服务
+date: 2020-06-06
+author: MonoLogueChi
+sidebar: auto
+categories:
+  - 项目总览
+tags:
+  - 项目总览
+sticky: 3
+---
+
+我们提供的免费公共服务
+
+<!-- more -->
+
+## 弹幕服务器
+
+- 地址：https://danmu.u2sb.top
+- 项目：[https://github.com/u2sb/Danmu.Server](https://github.com/u2sb/Danmu.Server)
+- 文档：[https://dandoc.u2sb.top/](https://dandoc.u2sb.top/)
+
+## MetingJs 后端服务器
+
+- 地址：https://sm.sm9.top/api/music (需要自己想办法找跨域代理)
+- 地址：https://1384366657049717.cn-shanghai.fc.aliyuncs.com/2016-08-15/proxy/MetingJS/GetMusic/api/music (不稳定，建议自行搭建)
+- 项目：[https://github.com/u2sb/MetingJS.Server](https://github.com/u2sb/MetingJS.Server)
+- 文档：编写中...
+
+## Apk 应用名称查询
+
+通过包名查询应用名称
+
+- 地址：https://apkname.u2sb.top
+- 项目：[https://github.com/u2sb/ApkPackageName](https://github.com/u2sb/ApkPackageName)
+- 文档：编写中...

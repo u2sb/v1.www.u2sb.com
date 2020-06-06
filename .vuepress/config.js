@@ -1,7 +1,7 @@
 module.exports = {
   title: "u2sb",
   description: "我们正在做一些很帅的事",
-  dest: "public",
+  dest: "dist",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     [
@@ -25,6 +25,10 @@ module.exports = {
             text: "弹幕服务器",
             link: "https://dandoc.u2sb.top/",
           },
+          {
+            text: "hexo-tag-mmedia",
+            link: "/docs/hexo-tag-mmedia/",
+          }
         ],
       },
       {
@@ -32,14 +36,14 @@ module.exports = {
         icon: "reco-suggestion",
         items: [
           {
+            text: "关于我们",
+            link: "/blogs/other/aboutme.html",
+            icon: "reco-faq",
+          },
+          {
             text: "GitHub",
             link: "https://github.com/u2sb",
             icon: "reco-github",
-          },
-          {
-            text: "BiliBili",
-            link: "https://space.bilibili.com/28474682",
-            icon: "reco-bilibili",
           },
           {
             text: "QQ群",
@@ -72,7 +76,7 @@ module.exports = {
         link: "https://blog.xxwhite.com",
       },
     ],
-    logo: "/logo.png",
+    logo: "/img/logo.png",
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
@@ -83,7 +87,7 @@ module.exports = {
     // 作者
     author: "u2sb",
     // 作者头像
-    authorAvatar: "/avatar.png",
+    authorAvatar: "/img/avatar.png",
     // 备案号
     //record: 'xxxx',
     // 项目开始时间
@@ -99,6 +103,10 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true,
+    extendMarkdown: (md) => {
+      md.set({ breaks: true });
+      md.use(require("markdown-it-imsize"));
+    },
   },
   plugins: [
     ["sitemap", { hostname: "https://www.u2sb.top" }],

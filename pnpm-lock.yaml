@@ -1,9 +1,9 @@
-dependencies:
+devDependencies:
+  markdown-it-imsize: 2.0.1
+  vuepress: 1.4.1
   vuepress-plugin-pangu: 1.0.1
   vuepress-plugin-sitemap: 2.3.1
-devDependencies:
-  vuepress: 1.4.1
-  vuepress-theme-reco: 1.4.5_vuepress@1.4.1
+  vuepress-theme-reco: 1.4.6
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.1:
@@ -1086,10 +1086,9 @@ packages:
     dev: true
     resolution:
       integrity: sha512-3d9WCYNurdFKApFzU8i7YD1GCGhunEVYnwSJxwQ2rDmEdpLneAYNJWg9+QS6bqzB+Pw7ymtwLf/Sqti9+xUGqA==
-  /@vssue/vuepress-plugin-vssue/1.4.6_vuepress@1.4.1:
+  /@vssue/vuepress-plugin-vssue/1.4.6:
     dependencies:
       vssue: 1.4.6
-      vuepress: 1.4.1
     dev: true
     peerDependencies:
       vuepress: ^1.0.0
@@ -1303,19 +1302,17 @@ packages:
     dev: true
     resolution:
       integrity: sha512-xv/qDY6S8rHzLGDHtwn3XV7Gi3Fnevp6d3H18PFK3sNwT2KGzKIe2c7lbn1qHDRUWcxY7+EoT7zmdJwIeG6dWQ==
-  /@vuepress/plugin-blog/1.9.2_vuepress@1.4.1:
+  /@vuepress/plugin-blog/1.9.2:
     dependencies:
       '@vssue/api-github-v3': 1.4.4
-      '@vssue/vuepress-plugin-vssue': 1.4.6_vuepress@1.4.1
+      '@vssue/vuepress-plugin-vssue': 1.4.6
       dayjs: 1.8.28
       vuejs-paginate: 2.1.0
       vuepress-plugin-disqus: 0.2.0
-      vuepress-plugin-feed: 0.1.8_vuepress@1.4.1
+      vuepress-plugin-feed: 0.1.8
       vuepress-plugin-mailchimp: 1.4.2
       vuepress-plugin-sitemap: 2.3.1
     dev: true
-    peerDependencies:
-      vuepress: '*'
     resolution:
       integrity: sha512-1y4C7miuJyhP2YV9+8SGPzcwbyNqQWB1WQQf1AYdWvlAK/QrFdTXOtFyBKoViJppHxIkLLz+45bvOm5sIqjv6w==
   /@vuepress/plugin-last-updated/1.4.1:
@@ -1324,12 +1321,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-67ouc9cB3C19zcDqeJwhwqO9CXjy8G67tcXUgPpL/GsuK11oQbnR4rkupILvNa9HoemtCcF2aaxXSGsi/1VEtA==
-  /@vuepress/plugin-medium-zoom/1.4.1:
+  /@vuepress/plugin-medium-zoom/1.5.0:
     dependencies:
       medium-zoom: 1.0.5
     dev: true
     resolution:
-      integrity: sha512-dMo8eDbmM1Y+zRRECjmCcqtuTirkpYn7FbByURRSauh2hFqjHSN/uOKOHEj71TTzs1vwrLCynHvKo6tFEuUMNA==
+      integrity: sha512-9Q1C11Ga/GL3fc+GiwaOZ+I0lWT2Ilrd1OKzJ6iJTZ5F4Ays+NzdIPBo5LeIT6/7eu08Z9XBhW0mQTa6Aq/DhQ==
   /@vuepress/plugin-nprogress/1.4.1:
     dependencies:
       nprogress: 0.2.0
@@ -1678,6 +1675,7 @@ packages:
   /argparse/1.0.10:
     dependencies:
       sprintf-js: 1.0.3
+    dev: true
     resolution:
       integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
   /arr-diff/4.0.0:
@@ -3337,6 +3335,7 @@ packages:
     resolution:
       integrity: sha512-98p2zE+rL7/g/DzMHMTF4zZlCgeVdJ7yr6xzEpJRYwFYrGi9ANdn5DnJURg6RpBkyk60XYDnWIv51VfIhfNGuA==
   /entities/1.1.2:
+    dev: true
     resolution:
       integrity: sha512-f2LZMYl1Fzu7YSBKg+RoROelpOaNrcGmE9AZubeDfrCEia483oW4MI4VyFd5VNHIgQ/7qm1I0wUHK1eJnn2y2w==
   /entities/2.0.3:
@@ -5106,6 +5105,7 @@ packages:
   /linkify-it/2.2.0:
     dependencies:
       uc.micro: 1.0.6
+    dev: true
     resolution:
       integrity: sha512-GnAl/knGn+i1U/wjBz3akz2stz+HrHLsxMwHQGofCDfPvlf+gDKN58UtfmUquTY4/MXeE2x7k19KQmeoZi94Iw==
   /load-script/1.0.0:
@@ -5164,6 +5164,7 @@ packages:
     resolution:
       integrity: sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
   /lodash.chunk/4.2.0:
+    dev: true
     resolution:
       integrity: sha1-ZuXOH3btJ7QwPYxlEujRIW6BBrw=
   /lodash.clonedeep/4.5.0:
@@ -5191,9 +5192,11 @@ packages:
     resolution:
       integrity: sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
   /lodash.padstart/4.6.1:
+    dev: true
     resolution:
       integrity: sha1-0uPuv/DZ05rVD1y9G1KnvOa7YRs=
   /lodash.sortby/4.7.0:
+    dev: true
     resolution:
       integrity: sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
   /lodash.template/4.5.0:
@@ -5335,11 +5338,15 @@ packages:
     dev: true
     resolution:
       integrity: sha1-m+4OmpkKljupbfaYDE/dsF37Tcw=
+  /markdown-it-imsize/2.0.1:
+    dev: true
+    resolution:
+      integrity: sha1-zKBCeQXQUziiR8ucqdloxc3dUXA=
   /markdown-it-pangu/1.0.2:
     dependencies:
       markdown-it: 8.4.2
       pangu: 4.0.7
-    dev: false
+    dev: true
     resolution:
       integrity: sha512-rssyYaMKXRLMpQIUgX01VE1KYOHhlnc4t5zGTI2zgXDpE88eQz8hywa0iSzoFm3eb5CYzFWazDKdUbnyZvW0SQ==
   /markdown-it-table-of-contents/0.4.4:
@@ -5355,6 +5362,7 @@ packages:
       linkify-it: 2.2.0
       mdurl: 1.0.1
       uc.micro: 1.0.6
+    dev: true
     hasBin: true
     resolution:
       integrity: sha512-GcRz3AWTqSUphY3vsUqQSFMbgR38a4Lh3GWlHRh/7MRwz8mcu9n2IO7HOh+bXHrR9kOPDl5RNCaEsrneb+xhHQ==
@@ -5383,6 +5391,7 @@ packages:
     resolution:
       integrity: sha512-rQvjv71olwNHgiTbfPZFkJtjNMciWgswYeciZhtvWLO8bmX3TnhyA62I6sTWOyZssWHJJjY6/KiWwqQsWWsqOA==
   /mdurl/1.0.1:
+    dev: true
     resolution:
       integrity: sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
   /media-typer/0.3.0:
@@ -6009,7 +6018,7 @@ packages:
     resolution:
       integrity: sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
   /pangu/4.0.7:
-    dev: false
+    dev: true
     hasBin: true
     resolution:
       integrity: sha512-weZKJIwwy5gjt4STGVUH9bix3BGk7wZ2ahtIypwe3e/mllsrIZIvtfLx1dPX56GcpZFOCFKmeqI1qVuB9enRzA==
@@ -6696,6 +6705,7 @@ packages:
     resolution:
       integrity: sha1-wNWmOycYgArY4esPpSachN1BhF4=
   /punycode/2.1.1:
+    dev: true
     engines:
       node: '>=6'
     resolution:
@@ -7295,6 +7305,7 @@ packages:
       lodash.padstart: 4.6.1
       whatwg-url: 7.1.0
       xmlbuilder: 13.0.2
+    dev: true
     engines:
       node: '>=6.0.0'
       npm: '>=4.0.0'
@@ -7463,6 +7474,7 @@ packages:
     resolution:
       integrity: sha512-NzNVhJDYpwceVVii8/Hu6DKfD2G+NrQHlS/V/qgv763EYudVwEcMQNxd2lh+0VrUByXN/oJkl5grOhYWvQUYiw==
   /sprintf-js/1.0.3:
+    dev: true
     resolution:
       integrity: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
   /sshpk/1.16.1:
@@ -7971,6 +7983,7 @@ packages:
   /tr46/1.0.1:
     dependencies:
       punycode: 2.1.1
+    dev: true
     resolution:
       integrity: sha1-qLE/1r/SSJUZZ0zN5VujaTtwbQk=
   /tslib/1.13.0:
@@ -8023,6 +8036,7 @@ packages:
     resolution:
       integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
   /uc.micro/1.0.6:
+    dev: true
     resolution:
       integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
   /uglify-js/3.4.10:
@@ -8270,17 +8284,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-1gVRXZUDqzTt2I43xivOotXchGdYCCW+Av+laXImzcUVI3DrGR4AQbh3LbDsFpZq+N26u+p+qzB9mjliLYO3YQ==
-  /valine/1.4.4:
-    dependencies:
-      balajs: 1.0.7
-      balalaika: 1.0.1
-      element-closest: 3.0.2
-      leancloud-storage: 3.15.0
-      storejs: 1.0.25
-      xss: 1.0.6
-    dev: true
-    resolution:
-      integrity: sha512-iy78hTnsFFsRmWtKRfTIZFe3LBU/d0MlRo81zY42Vbw6hIAhFr9eXQzZFK9LWfBhUvmhp+DjtT7a8413i/YpZg==
   /vary/1.1.2:
     dev: true
     engines:
@@ -8444,7 +8447,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-kx+AeVzjJ9lx9bufLt1/X35V1VXfnQ1srkDMIzFKD9NyQ3eycsWQRcGO1dFe1HMrY3+7fTu+1/JeUEUEpGZ5tw==
-  /vuepress-plugin-feed/0.1.8_vuepress@1.4.1:
+  /vuepress-plugin-feed/0.1.8:
     dependencies:
       feed: 2.0.4
       lodash.defaultsdeep: 4.6.1
@@ -8453,7 +8456,6 @@ packages:
       lodash.trimstart: 4.5.1
       remove-markdown: 0.3.0
       striptags: 3.1.1
-      vuepress: 1.4.1
     dev: true
     engines:
       node: '>=8'
@@ -8471,12 +8473,13 @@ packages:
   /vuepress-plugin-pangu/1.0.1:
     dependencies:
       markdown-it-pangu: 1.0.2
-    dev: false
+    dev: true
     resolution:
       integrity: sha512-H08S6HThjOZywswtjeWsj+fsWj1Duy3UHdj2YDsv21Ykkcfc7sIb3tE30jp2lMWdMWTk/ExWYVoGsaDFAmxGEA==
   /vuepress-plugin-sitemap/2.3.1:
     dependencies:
       sitemap: 3.2.2
+    dev: true
     hasBin: true
     peerDependencies:
       chalk: ^2.0.0
@@ -8490,23 +8493,20 @@ packages:
     dev: true
     resolution:
       integrity: sha512-qsQkDftLVFLe8BiviIHaLV0Ea38YLZKKonDGsNQy1IE0wllFpFIEldWD8frWZtDFdx6b/O3KDMgVQ0qp5NjJCg==
-  /vuepress-theme-reco/1.4.5_vuepress@1.4.1:
+  /vuepress-theme-reco/1.4.6:
     dependencies:
       '@vuepress-reco/vuepress-plugin-back-to-top': 1.4.0
       '@vuepress-reco/vuepress-plugin-comments': 1.4.6
       '@vuepress-reco/vuepress-plugin-loading-page': 1.4.0
       '@vuepress-reco/vuepress-plugin-pagation': 1.4.6
-      '@vuepress/plugin-blog': 1.9.2_vuepress@1.4.1
-      '@vuepress/plugin-medium-zoom': 1.4.1
+      '@vuepress/plugin-blog': 1.9.2
+      '@vuepress/plugin-medium-zoom': 1.5.0
       docsearch.js: 2.6.3
       md5: 2.2.1
-      valine: 1.4.4
       vue-click-outside: 1.1.0
     dev: true
-    peerDependencies:
-      vuepress: '*'
     resolution:
-      integrity: sha512-6PUIzDIzfs8ZCdnUiPdYuCc1IHpRDuNXvD0RuBCbw8N6LsBsPSJy7aiffcDebjDyOpFFkEzTBDNH1EtVGkbExg==
+      integrity: sha512-531G+K/DVHIauCYhlgb5HJI6L5sYgUMLX0fi9v/x0naDK8WzzQwAQ74xdMnm4mcKC83wY7U/MX5lMFCpxc8QuQ==
   /vuepress/1.4.1:
     dependencies:
       '@vuepress/core': 1.4.1
@@ -8548,6 +8548,7 @@ packages:
     resolution:
       integrity: sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==
   /webidl-conversions/4.0.2:
+    dev: true
     resolution:
       integrity: sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
   /webpack-chain/4.12.1:
@@ -8731,6 +8732,7 @@ packages:
       lodash.sortby: 4.7.0
       tr46: 1.0.1
       webidl-conversions: 4.0.2
+    dev: true
     resolution:
       integrity: sha512-WUu7Rg1DroM7oQvGWfOiAK21n74Gg+T4elXEQYkOhtyLeWiJFoOGLXPKI/9gzIie9CtwVLm8wtw6YJdKyxSjeg==
   /when/3.6.4:
@@ -8824,6 +8826,7 @@ packages:
     resolution:
       integrity: sha1-eLpyAgApxbyHuKgaPPzXS0ovweU=
   /xmlbuilder/13.0.2:
+    dev: true
     engines:
       node: '>=6.0'
     resolution:
@@ -8899,7 +8902,8 @@ packages:
     resolution:
       integrity: sha1-4Se9nmb9hGvl6rSME5SIL3wOT5g=
 specifiers:
+  markdown-it-imsize: ^2.0.1
   vuepress: 1.4.1
   vuepress-plugin-pangu: ^1.0.1
   vuepress-plugin-sitemap: ^2.3.1
-  vuepress-theme-reco: 1.4.5
+  vuepress-theme-reco: ^1.4.6
