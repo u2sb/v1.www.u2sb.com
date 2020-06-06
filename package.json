@@ -1,0 +1,18 @@
+{
+  "name": "u2sb-blog",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "devDependencies": {
+    "vuepress": "1.4.1",
+    "vuepress-theme-reco": "1.4.5"
+  },
+  "description": "我们在做一些很帅的事",
+  "dependencies": {
+    "vuepress-plugin-pangu": "^1.0.1",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  }
+}
