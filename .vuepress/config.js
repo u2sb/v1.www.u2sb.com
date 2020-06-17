@@ -26,6 +26,10 @@ module.exports = {
             link: "https://dandoc.u2sb.top/",
           },
           {
+            text: "MetingJS.Server",
+            link: "/docs/MetingJS.Server/",
+          },
+          {
             text: "hexo-tag-mmedia",
             link: "/docs/hexo-tag-mmedia/",
           }
@@ -105,6 +109,11 @@ module.exports = {
     lineNumbers: true,
     extendMarkdown: (md) => {
       md.set({ breaks: true });
+      md.use(require("markdown-it-sub"));
+      md.use(require("markdown-it-sup"));
+      md.use(require("markdown-it-footnote"));
+      md.use(require("markdown-it-task-lists"));
+      md.use(require("markdown-it-attrs"), {});
       md.use(require("markdown-it-imsize"));
     },
   },
