@@ -224,7 +224,7 @@ AplayerList（不推荐使用）
 | danmaku         | `false` | 开启弹幕，带有此参数表示 true，不带表示 false                      |
 | allowfullscreen | `true`  | 是否允许全屏                                                       |
 | width           | `100%`  | 宽度                                                               |
-| height          | `500px` | 高度                                                               |
+| max_width       | `800px` | 最大宽度                                                           |
 | margin          | `auto`  | 位置，css 属性，例：`"margin:auto"` `"margin:0 0 0 auto"`          |
 
 ## ArtPlayer
