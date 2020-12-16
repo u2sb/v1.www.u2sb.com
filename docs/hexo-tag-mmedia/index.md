@@ -13,7 +13,8 @@ hexo-tag-mmedia 是 MonoLogueChi 自用的一个媒体插入插件，在添加�
 - [x] [Aplayer](https://github.com/DIYgod/APlayer)
 - [x] [Meting](https://github.com/metowolf/MetingJS)
 - [x] [Dplayer](https://github.com/DIYgod/DPlayer)
-- [x] [Bilibili](https://www.bilibili.com/)
+- [x] [哔哩哔哩](https://www.bilibili.com/)
+- [x] [西瓜视频](https://www.ixigua.com/)
 - [ ] [YouTube]()
 - [ ] [ArtPlayer](https://github.com/zhw2590582/ArtPlayer)
 
@@ -208,7 +209,7 @@ AplayerList（不推荐使用）
 | highlight   |           | 高光点，可叠加多个，例如 `"highlight:{time: 20, text: '这是第 20 秒'}"` |
 | code        |           | 额外代码，不懂不要填，需要写的请参考源码                                |
 
-## Bilibili
+## 哔哩哔哩
 
 ```
 {% bilibili "aid:60016166" "quality:high" "danmaku" "allowfullscreen" %}
@@ -220,12 +221,29 @@ AplayerList（不推荐使用）
 | aid             |         | 视频 av 号                                                         |
 | av              |         | 视频链接地址，不要带分 P 信息，与 aid 同时填写会被覆盖，不推荐使用 |
 | page            | `1`     | 分 P，填写 av 时才会生效                                           |
-| quality         | `low`   | 视频质量，可选 `high` `low`                                        |
+| quality         | `low`   | 视频质量，可选 `high` `low` (此选项已失效)                         |
 | danmaku         | `false` | 开启弹幕，带有此参数表示 true，不带表示 false                      |
 | allowfullscreen | `true`  | 是否允许全屏                                                       |
 | width           | `100%`  | 宽度                                                               |
 | max_width       | `800px` | 最大宽度                                                           |
 | margin          | `auto`  | 位置，css 属性，例：`"margin:auto"` `"margin:0 0 0 auto"`          |
+
+## 西瓜视频
+
+```
+{% ixigua “xid:6905586791114342925” "autoplay" "startTime:0" %}
+```
+
+| 配置项          | 默认    | 描述                                                      |
+| :-------------- | :------ | :-------------------------------------------------------- |
+| xid             |         | 必填，就是 url 里的那一串数字                             |
+| id              |         | 预留，目前无需填写                                            |
+| autoplay        | `false` | 自动播放                                                  |
+| startTime       | `0`     | 开始时间                                                  |
+| allowfullscreen | `true`  | 是否允许全屏                                              |
+| width           | `100%`  | 宽度                                                      |
+| max_width       | `800px` | 最大宽度                                                  |
+| margin          | `auto`  | 位置，css 属性，例：`"margin:auto"` `"margin:0 0 0 auto"` |
 
 ## ArtPlayer
 
