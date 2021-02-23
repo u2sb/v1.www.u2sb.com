@@ -3,22 +3,21 @@
   "version": "1.0.0",
   "author": "reco_luan",
   "scripts": {
-    "dev": "vuepress dev .",
-    "build": "vuepress build ."
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "1.4.1",
-    "vuepress-theme-reco": "^1.4.6",
-    "vuepress-plugin-pangu": "^1.0.1",
-    "vuepress-plugin-sitemap": "^2.3.1",
     "markdown-it-attrs": "^3.0.1",
     "markdown-it-footnote": "^3.0.2",
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
-    "markdown-it-task-lists": "^2.1.1"
+    "markdown-it-task-lists": "^2.1.1",
+    "vuepress": "1.4.1",
+    "vuepress-plugin-pangu": "^1.0.1",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-theme-vdoing": "^1.8.1"
   },
   "description": "我们在做一些很帅的事",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
