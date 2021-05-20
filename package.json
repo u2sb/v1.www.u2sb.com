@@ -7,7 +7,7 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "markdown-it-attrs": "^3.0.1",
+    "markdown-it-attrs": "^3.0.3",
     "markdown-it-footnote": "^3.0.2",
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-sub": "^1.0.0",
@@ -16,8 +16,7 @@
     "vuepress": "1.4.1",
     "vuepress-plugin-pangu": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-theme-vdoing": "^1.8.1"
+    "vuepress-theme-vdoing": "^1.8.3"
   },
-  "description": "我们在做一些很帅的事",
-  "dependencies": {}
+  "description": "我们在做一些很帅的事"
 }
