@@ -2,23 +2,26 @@
 home: true
 # heroImage: /img/web.png
 heroText: u2sb
-tagline: 帅比聚集地
+tagline: YOU ARE 帅比
 actionText: 立刻进入 →
 # actionLink: /web/
-# bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
+bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
-  - title: 开源项目
-    details: 我们的开源项目
-    link: /open-source/ # 可选
+  - title: 开源软件
+    details: 我们的软件开源项目
+    link: /open-sw/ # 可选
     # imgUrl: /img/web.png # 可选
+  - title: 开源硬件
+    details: 我们的硬件开源项目
+    link: /open-hw/
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
 ---
 
 ## 为什么会有这个组织？
 
-在去年的时候，无意中注册到一个域名 `u2sb.top`，后来就一直想拿这个域名做点事情，但是又没有想好要做什么，就一直拖了下去。
+以前注册了域名 `u2sb.com`，后来就一直想拿这个域名做点事情，但是又没有想好要做什么，就一直拖了下去。
 
 在前面做弹幕服务器的时候，开始使用了这个域名，用于弹幕服务器的文档和公共服务器。
 

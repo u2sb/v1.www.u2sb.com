@@ -1,20 +1,20 @@
-module.exports = [
+export default [
   { text: "Home", link: "/" },
   {
-    text: "开源项目",
+    text: "开源软件",
     items: [
       {
         text: "弹幕服务器",
-        link: "https://dandoc.u2sb.com/",
+        link: "https://dandoc.u2sb.com/"
       },
       {
         text: "MetingJS.Server",
-        link: "/open-source/",
+        link: "/open-sw/"
       },
       {
         text: "hexo-tag-mmedia",
-        link: "/open-source/",
-      },
-    ],
-  },
+        link: "/open-sw/"
+      }
+    ]
+  }
 ];
