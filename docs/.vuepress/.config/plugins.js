@@ -19,8 +19,4 @@ export default {
     }
   },
   "fulltext-search": {}
-  // "thirdparty-search": {
-  //   searchMaxSuggestions: 10,
-  //   thirdparty: []
-  // }
 };
