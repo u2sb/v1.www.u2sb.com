@@ -31,9 +31,7 @@ jobs:
           node-version: "16.x"
           cache: "pnpm"
 
-      - run: npx browserslist@latest --update-db
       - run: pnpm run build
-      - run: touch dist/.nojekyll
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
