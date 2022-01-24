@@ -1,6 +1,6 @@
 ---
 home: true
-# heroImage: /img/web.png
+# heroImage: /assets/img/web.png
 heroText: u2sb
 tagline: YOU ARE 帅比
 actionText: 立刻进入 →
@@ -11,7 +11,7 @@ features: # 可选的
   - title: 开源软件
     details: 我们的软件开源项目
     link: /open-sw/ # 可选
-    # imgUrl: /img/web.png # 可选
+    # imgUrl: /assets/img/web.png # 可选
   - title: 开源硬件
     details: 我们的硬件开源项目
     link: /open-hw/
@@ -40,7 +40,7 @@ postList: none
 
 如果只是想了解使用我们的项目，欢迎加入我们的 [QQ 群](https://shang.qq.com/wpa/qunwpa?idkey=f2a6dba8d97899969101dd29210d972f04febd0ff8cf08ed50dd27790f23c9a9) 159891059
 
-![](/img/2020/qq.png =300x300)
+![](/assets/img/2020/qq.png =300x300)
 
 ## 资助 u2sb
 

@@ -1,22 +1,27 @@
 {
-    "name": "u2sb.com",
-    "version": "1.0.0",
-    "author": "MonoLogueChi",
-    "scripts": {
-        "dev": "vuepress dev docs",
-        "build": "vuepress build docs"
-    },
-    "devDependencies": {
-        "markdown-it-attrs": "^4.1.3",
-        "markdown-it-footnote": "^3.0.3",
-        "markdown-it-imsize": "^2.0.1",
-        "markdown-it-sub": "^1.0.0",
-        "markdown-it-sup": "^1.0.0",
-        "markdown-it-task-lists": "^2.1.1",
-        "vuepress": "1.9.5",
-        "vuepress-plugin-pangu": "^1.0.1",
-        "vuepress-plugin-sitemap": "^2.3.1",
-        "vuepress-theme-vdoing": "^1.9.3"
-    },
-    "description": "我们在做一些很帅的事"
+  "name": "u2sb.com",
+  "version": "1.0.0",
+  "author": "MonoLogueChi",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "markdown-it-attrs": "^4.1.3",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-imsize": "^2.0.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-it-task-lists": "^2.1.1",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-fulltext-search": "^2.2.1",
+    "vuepress-plugin-mmedia": "^1.0.0-beta.0",
+    "vuepress-plugin-one-click-copy": "^1.0.6",
+    "vuepress-plugin-pangu": "^1.0.1",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-thirdparty-search": "^1.0.2",
+    "vuepress-plugin-zooming": "^1.1.8",
+    "vuepress-theme-vdoing": "^1.9.4"
+  },
+  "description": "我们在做一些很帅的事"
 }

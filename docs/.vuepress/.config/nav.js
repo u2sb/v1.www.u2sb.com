@@ -9,11 +9,15 @@ export default [
       },
       {
         text: "MetingJS.Server",
-        link: "/open-sw/"
+        link: "/open-sw/#MetingJsServer"
+      },
+      {
+        text: "vuepress-plugin-mmedia",
+        link: "/open-sw/#vuepress-plugin-mmedia"
       },
       {
         text: "hexo-tag-mmedia",
-        link: "/open-sw/"
+        link: "/open-sw/#hexo-tag-mmedia"
       }
     ]
   }

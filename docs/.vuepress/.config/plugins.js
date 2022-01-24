@@ -1,6 +1,7 @@
 export default {
   sitemap: { hostname: "https://www.u2sb.com" },
-  "vuepress-plugin-pangu": {},
+  mmedia: {},
+  pangu: {},
 
   "one-click-copy": {
     copySelector: [
@@ -12,7 +13,7 @@ export default {
     showInMobile: false
   },
   // 放大图片
-  "vuepress-plugin-zooming": {
+  zooming: {
     selector: ".theme-vdoing-content img:not(.no-zoom)", // 排除class是no-zoom的图片
     options: {
       bgColor: "rgba(0,0,0,0.6)"
