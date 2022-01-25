@@ -8,6 +8,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   title: "u2sb",
   description: "You Are Shuai Bi",
   dest: "dist",
+  shouldPrefetch: () => false,
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     [
