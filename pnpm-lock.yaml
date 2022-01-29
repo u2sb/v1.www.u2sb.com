@@ -9,7 +9,7 @@ specifiers:
   markdown-it-task-lists: ^2.1.1
   vuepress: ^1.9.7
   vuepress-plugin-fulltext-search: ^2.2.1
-  vuepress-plugin-mmedia: ^1.0.0-beta.6
+  vuepress-plugin-mmedia: ^1.0.0-beta.8
   vuepress-plugin-one-click-copy: ^1.0.6
   vuepress-plugin-pangu: ^1.0.1
   vuepress-plugin-sitemap: ^2.3.1
@@ -26,7 +26,7 @@ devDependencies:
   markdown-it-task-lists: 2.1.1
   vuepress: 1.9.7
   vuepress-plugin-fulltext-search: 2.2.1_vuepress@1.9.7
-  vuepress-plugin-mmedia: 1.0.0-beta.6
+  vuepress-plugin-mmedia: 1.0.0-beta.8
   vuepress-plugin-one-click-copy: 1.0.6
   vuepress-plugin-pangu: 1.0.1
   vuepress-plugin-sitemap: 2.3.1
@@ -9056,8 +9056,8 @@ packages:
       vuepress: 1.9.7
     dev: true
 
-  /vuepress-plugin-mmedia/1.0.0-beta.6:
-    resolution: {integrity: sha512-Nkimi3Tt2xp11fVink0o+YoWX4LOw266rM/CnSaRDp4rnHnY60JYm6KYjxwl5oUrOi+/m7vyBJauKb/pCIs52A==}
+  /vuepress-plugin-mmedia/1.0.0-beta.8:
+    resolution: {integrity: sha512-ECLOz+UYS40XlesGGkCLaiG5srm5lx0MlAHbVWi+UpRwuYh59P+EE0+WJxtBPcE3vCZqRBddlHgqzTj040vrZw==}
     dependencies:
       aplayer: 1.10.1
       artplayer: 4.2.6
