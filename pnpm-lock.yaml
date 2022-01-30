@@ -9,7 +9,7 @@ specifiers:
   markdown-it-task-lists: ^2.1.1
   vuepress: ^1.9.7
   vuepress-plugin-fulltext-search: ^2.2.1
-  vuepress-plugin-mmedia: ^1.0.0-beta.8
+  vuepress-plugin-mmedia: ^1.0.0-beta.9
   vuepress-plugin-one-click-copy: ^1.0.6
   vuepress-plugin-pangu: ^1.0.1
   vuepress-plugin-sitemap: ^2.3.1
@@ -26,7 +26,7 @@ devDependencies:
   markdown-it-task-lists: 2.1.1
   vuepress: 1.9.7
   vuepress-plugin-fulltext-search: 2.2.1_vuepress@1.9.7
-  vuepress-plugin-mmedia: 1.0.0-beta.8
+  vuepress-plugin-mmedia: 1.0.0-beta.9
   vuepress-plugin-one-click-copy: 1.0.6
   vuepress-plugin-pangu: 1.0.1
   vuepress-plugin-sitemap: 2.3.1
@@ -1970,8 +1970,8 @@ packages:
     resolution: {integrity: sha512-01x6RoHTDKhN0BcXoHX6AkTN2KA57EipHljEfcuQSQGmo43v3J7PeWLUyArmSVMz8B3beLpPp3ATt4ytobudHw==}
     dev: true
 
-  /artplayer/4.2.6:
-    resolution: {integrity: sha512-XwxgbFnjlwIoM3KMQ3W059/FhVlAzGNXIcBQXAnTMt/epRdZGsJGCbaVsbXjjYAKqKxgbsP1efcYZgDrr8rMnw==}
+  /artplayer/4.2.7:
+    resolution: {integrity: sha512-gm8pE43oUzD2r7l8r84o2M9WndcEQt852++Re0gmNqw6wr2JeM95MPbywFfTCSPf04fzkVHdnTvr0To0eB5C0Q==}
     dependencies:
       option-validator: 2.0.6
       screenfull: 6.0.1
@@ -2274,7 +2274,7 @@ packages:
       randombytes: 2.1.0
       run-parallel: 1.2.0
       run-series: 1.1.9
-      simple-get: 4.0.0
+      simple-get: 4.0.1
       simple-peer: 9.11.0
       simple-websocket: 9.1.0_bffff4271b89d628e8333ead80d3d8e8
       socks: 2.6.1
@@ -2935,7 +2935,7 @@ packages:
   /compact2string/1.4.1:
     resolution: {integrity: sha512-3D+EY5nsRhqnOwDxveBv5T8wGo4DEvYxjDtPGmdOX+gfr5gE92c2RC0w2wa+xEefm07QuVqqcF3nZJUZ92l/og==}
     dependencies:
-      ipaddr.js: 2.0.1
+      ipaddr.js: 1.9.1
     dev: true
 
   /component-emitter/1.3.0:
@@ -5692,7 +5692,7 @@ packages:
       ip-set: 2.1.0
       netmask: 2.0.2
       once: 1.4.0
-      simple-get: 4.0.0
+      simple-get: 4.0.1
       split: 1.0.1
     dev: true
 
@@ -6027,10 +6027,6 @@ packages:
   /methods/1.1.2:
     resolution: {integrity: sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=}
     engines: {node: '>= 0.6'}
-    dev: true
-
-  /meting/2.0.1:
-    resolution: {integrity: sha512-qcn85I7btbtfDLZvcZdMa+HrpCXm2E3sRB3BRBVYWJvZG49uQFhIGK6I53c/EEcyumMdU0ekRfTlD4/FG1/48A==}
     dev: true
 
   /micromatch/3.1.10:
@@ -6667,7 +6663,7 @@ packages:
       get-stdin: 8.0.0
       magnet-uri: 6.2.0
       queue-microtask: 1.2.3
-      simple-get: 4.0.0
+      simple-get: 4.0.1
       simple-sha1: 3.1.0
     dev: true
 
@@ -7865,8 +7861,8 @@ packages:
       safe-buffer: 5.2.1
     dev: true
 
-  /shaka-player/3.3.0:
-    resolution: {integrity: sha512-R73sL0X7KEgMSWbCsZXFeeq/kzv7z0Fjl2sYGbPQb0skR01v7Krw8H7XbihEKlKnGEvuIZvzkPrJZ3UXl+x4WQ==}
+  /shaka-player/3.3.1:
+    resolution: {integrity: sha512-aBO5Em/1vxAuEQ7Ye4gHIFyj1s77w/dHmUFjtjmV3J4YQw+P9A3R54Y9RRWpyhsHq2BX3r53RxdxtIwmh+SMtQ==}
     dependencies:
       eme-encryption-scheme-polyfill: 2.0.3
     dev: true
@@ -7891,8 +7887,8 @@ packages:
     resolution: {integrity: sha512-cSFtAPtRhljv69IK0hTVZQ+OfE9nePi/rtJmw5UjHeVyVroEqJXP1sFztKUy1qU+xvz3u/sfYJLa947b7nAN2Q==}
     dev: true
 
-  /simple-get/4.0.0:
-    resolution: {integrity: sha512-ZalZGexYr3TA0SwySsr5HlgOOinS4Jsa8YB2GJ6lUNAazyAu4KG/VmzMTwAt2YVXzzVj8QmefmAonZIK2BSGcQ==}
+  /simple-get/4.0.1:
+    resolution: {integrity: sha512-brv7p5WgH0jmQJr1ZDDfKDOSeWWg+OVypG99A/5vYGPqJ6pxiaHLy8nxtFjBA7oMa01ebA9gfh1uMCFqOuXxvA==}
     dependencies:
       decompress-response: 6.0.0
       once: 1.4.0
@@ -9056,20 +9052,19 @@ packages:
       vuepress: 1.9.7
     dev: true
 
-  /vuepress-plugin-mmedia/1.0.0-beta.8:
-    resolution: {integrity: sha512-ECLOz+UYS40XlesGGkCLaiG5srm5lx0MlAHbVWi+UpRwuYh59P+EE0+WJxtBPcE3vCZqRBddlHgqzTj040vrZw==}
+  /vuepress-plugin-mmedia/1.0.0-beta.9:
+    resolution: {integrity: sha512-xMQIXP2UE/3oguRiwMC6nGApkzhSdNOY5gf7QSNmyMJMpf25nDQAdQgluSwZ0656D9NwA1Db+RgF608bcYez7A==}
     dependencies:
       aplayer: 1.10.1
-      artplayer: 4.2.6
+      artplayer: 4.2.7
       artplayer-plugin-danmuku: 4.1.0
       dashjs: 4.2.1
       deepmerge: 4.2.2
       dplayer: 1.26.0
       flv.js: 1.6.2
       hls.js: 1.1.3
-      meting: 2.0.1
-      shaka-player: 3.3.0
-      webtorrent: 1.7.1
+      shaka-player: 3.3.1
+      webtorrent: 1.7.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -9347,8 +9342,8 @@ packages:
     engines: {node: '>=0.8.0'}
     dev: true
 
-  /webtorrent/1.7.1:
-    resolution: {integrity: sha512-x7u7jtDDdPzSkwurZ1/mUZCcIBYrAQiPrnGSLi9jn9rlsnad4G5RXgsgBvVQR650Pqx9Id/4db/2ZTB4iRGh2w==}
+  /webtorrent/1.7.2:
+    resolution: {integrity: sha512-i2ceefclrbWcXrp/WyLSZYmwg5AhNrxiO+hUizb2wMqNEMNHOGfRc/0jT2j/2Jy0ar12zF8XcV4sEAjlaBPDcQ==}
     engines: {node: '>=12'}
     dependencies:
       '@webtorrent/http-node': 1.3.0
@@ -9382,7 +9377,7 @@ packages:
       run-parallel: 1.2.0
       run-parallel-limit: 1.1.0
       simple-concat: 1.0.1
-      simple-get: 4.0.0
+      simple-get: 4.0.1
       simple-peer: 9.11.0
       simple-sha1: 3.1.0
       speed-limiter: 1.0.2
