@@ -15,7 +15,7 @@
     "markdown-it-task-lists": "^2.1.1",
     "vuepress": "^1.9.7",
     "vuepress-plugin-fulltext-search": "^2.2.1",
-    "vuepress-plugin-mmedia": "1.0.5",
+    "vuepress-plugin-mmedia": "^1.1.1",
     "vuepress-plugin-one-click-copy": "^1.0.6",
     "vuepress-plugin-pangu": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.3.1",
