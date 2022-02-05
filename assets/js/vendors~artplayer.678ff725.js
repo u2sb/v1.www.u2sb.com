@@ -1,4 +1,4 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{439:function(t,e,r){
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{438:function(t,e,r){
 /*!
  * artplayer.js v4.2.6
  * Github: https://github.com/zhw2590582/ArtPlayer#readme
