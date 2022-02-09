@@ -1,4 +1,6 @@
-export default [
+import { NavItem } from "vuepress/config";
+
+export default <Array<NavItem>>[
   { text: "Home", link: "/" },
   {
     text: "开源软件",

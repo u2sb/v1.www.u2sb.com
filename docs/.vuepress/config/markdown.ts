@@ -5,7 +5,9 @@ import markdown_it_task_lists from "markdown-it-task-lists";
 import markdown_it_attrs from "markdown-it-attrs";
 import markdown_it_imsize from "markdown-it-imsize";
 
-export default {
+import { MarkdownConfig } from "vuepress/config";
+
+export default <MarkdownConfig>{
   lineNumbers: true,
   extendMarkdown: md => {
     md.set({ breaks: true });
