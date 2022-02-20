@@ -6,27 +6,28 @@ export default <UserPlugins>{
     artplayer: {
       src: {
         playbackRate: true,
-        whitelist: ["*"]
-      }
-    }
+        whitelist: ["*"],
+      },
+    },
   },
   pangu: {},
 
   "one-click-copy": {
     copySelector: [
       'div[class*="language-"] pre',
-      'div[class*="aside-code"] aside'
+      'div[class*="aside-code"] aside',
     ],
     copyMessage: "复制成功",
     duration: 1000,
-    showInMobile: false
+    showInMobile: false,
   },
   // 放大图片
   zooming: {
     selector: ".theme-vdoing-content img:not(.no-zoom)", // 排除class是no-zoom的图片
     options: {
-      bgColor: "rgba(0,0,0,0.6)"
-    }
+      bgColor: "rgba(0,0,0,0.6)",
+    },
   },
-  "fulltext-search": {}
+  "fulltext-search": {},
+  "smooth-scroll": {},
 };
