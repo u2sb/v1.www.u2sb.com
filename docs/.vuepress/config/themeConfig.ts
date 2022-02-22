@@ -31,15 +31,15 @@ export default <VdoingThemeConfig>{
   updateBar: {
     // 最近更新栏
     showToArticle: false, // 显示到文章页底部，默认true
-    moreArticle: "/archives" // “更多文章”跳转的页面，默认'/archives'
+    moreArticle: "/archives", // “更多文章”跳转的页面，默认'/archives'
   },
   pageButton: true, // 是否显示快捷翻页按钮，默认true
 
-  sidebar: "structuring", // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
+  sidebar: { mode: "structuring", collapsable: true }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
   author: {
     // 文章默认的作者信息，可在.md文件front matter中单独配置此信息 String | {name: String, link: String}
     name: "MonologueChi", // 必需
-    link: "https://blog.xxwhite.com" // 可选的
+    link: "https://blog.xxwhite.com", // 可选的
   },
   // blogger: {
   //   // 博主信息，显示在首页侧边栏
@@ -55,34 +55,34 @@ export default <VdoingThemeConfig>{
       {
         iconClass: "icon-QQ",
         title: "QQ",
-        link: "/assets/html/qq-groups.html"
+        link: "/assets/html/qq-groups.html",
       },
       {
         iconClass: "icon-bilibili",
         title: "哔哩哔哩",
-        link: "https://space.bilibili.com/28474682"
+        link: "https://space.bilibili.com/28474682",
       },
       {
         iconClass: "icon-github",
         title: "GitHub",
-        link: "https://github.com/MonoLogueChi"
+        link: "https://github.com/MonoLogueChi",
       },
       {
         iconClass: "icon-v2ex",
         title: "v2ex",
-        link: "https://www.v2ex.com/member/MonoLogueChi"
+        link: "https://www.v2ex.com/member/MonoLogueChi",
       },
       {
         iconClass: "icon-youjian",
         title: "发邮件",
-        link: "mailto:xxwhite@foxmail.com"
-      }
-    ]
+        link: "mailto:xxwhite@foxmail.com",
+      },
+    ],
   },
   footer: {
     // 页脚信息
     createYear: 2018, // 博客创建年份
     copyrightInfo:
-      "<a href='https://blog.xxwhite.com' target='_blank'>MonoLogueChi</a> | <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' rel='external nofollow' target='_blank'>CC BY-NC-SA 4.0</a>" // 博客版权信息，支持a标签
-  }
+      "<a href='https://blog.xxwhite.com' target='_blank'>MonoLogueChi</a> | <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' rel='external nofollow' target='_blank'>CC BY-NC-SA 4.0</a>", // 博客版权信息，支持a标签
+  },
 };
