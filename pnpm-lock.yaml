@@ -13,7 +13,7 @@ specifiers:
   vuepress-plugin-mathjax: ^1.2.8
   vuepress-plugin-one-click-copy: ^1.0.6
   vuepress-plugin-pangu: ^1.0.1
-  vuepress-plugin-sbmedia: ^1.3.2-beta.2
+  vuepress-plugin-sbmedia: ^1.3.2-beta.3
   vuepress-plugin-sitemap: ^2.3.1
   vuepress-plugin-thirdparty-search: ^1.0.2
   vuepress-plugin-zooming: ^1.1.8
@@ -32,7 +32,7 @@ devDependencies:
   vuepress-plugin-mathjax: 1.2.8
   vuepress-plugin-one-click-copy: 1.0.6
   vuepress-plugin-pangu: 1.0.1
-  vuepress-plugin-sbmedia: 1.3.2-beta.2
+  vuepress-plugin-sbmedia: 1.3.2-beta.3
   vuepress-plugin-sitemap: 2.3.1
   vuepress-plugin-thirdparty-search: 1.0.2
   vuepress-plugin-zooming: 1.1.8
@@ -9441,8 +9441,8 @@ packages:
       markdown-it-pangu: 1.0.2
     dev: true
 
-  /vuepress-plugin-sbmedia/1.3.2-beta.2:
-    resolution: {integrity: sha512-LBMLtbDXBml9mbACWrHZmgZ4qkYLZ1+B3fQ/aqXi5ahxTAFP7NuCdP5/L92OmlYS7j9+/FrQy6+Gzxpq6cKfqA==}
+  /vuepress-plugin-sbmedia/1.3.2-beta.3:
+    resolution: {integrity: sha512-zPf0o9FwrYmTkB3SMg1nb/kX5thN7C8TgG7fKSNuZhWu0W4x7Ai96SY+/z31y7tesAJ9ITNEcdOr3ZlQbnO5xA==}
     dependencies:
       aplayer: 1.10.1
       artplayer: 4.3.1
