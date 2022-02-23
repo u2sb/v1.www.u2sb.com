@@ -11,9 +11,9 @@ specifiers:
   vuepress: ^1.9.7
   vuepress-plugin-fulltext-search: ^2.2.1
   vuepress-plugin-mathjax: ^1.2.8
-  vuepress-plugin-mmedia: ^1.3.0
   vuepress-plugin-one-click-copy: ^1.0.6
   vuepress-plugin-pangu: ^1.0.1
+  vuepress-plugin-sbmedia: ^1.3.2-beta.2
   vuepress-plugin-sitemap: ^2.3.1
   vuepress-plugin-thirdparty-search: ^1.0.2
   vuepress-plugin-zooming: ^1.1.8
@@ -30,9 +30,9 @@ devDependencies:
   vuepress: 1.9.7
   vuepress-plugin-fulltext-search: 2.2.1_vuepress@1.9.7
   vuepress-plugin-mathjax: 1.2.8
-  vuepress-plugin-mmedia: 1.3.0
   vuepress-plugin-one-click-copy: 1.0.6
   vuepress-plugin-pangu: 1.0.1
+  vuepress-plugin-sbmedia: 1.3.2-beta.2
   vuepress-plugin-sitemap: 2.3.1
   vuepress-plugin-thirdparty-search: 1.0.2
   vuepress-plugin-zooming: 1.1.8
@@ -2081,6 +2081,10 @@ packages:
       follow-redirects: 1.5.10
     dev: true
 
+  /b4a/1.3.1:
+    resolution: {integrity: sha512-ULHjbJGjZcdA5bugDNAAcMA6GWXX/9N10I6AQc14TH+Sr7bMfT+NHuJnOFGPJWLtzYa6Tz+PnFD2D/1bISLLZQ==}
+    dev: true
+
   /babel-loader/8.2.2_105470dfa535e5f605a4a54ef7d81e87:
     resolution: {integrity: sha512-JvTd0/D889PQBtUXJ2PXaKU/pjZDMtHA9V2ecm+eNRmmBCMR09a+fmpGTNwnJtFmFl5Ei7Vy47LjBb+L0wQ99g==}
     engines: {node: '>= 8.9'}
@@ -2232,7 +2236,7 @@ packages:
       last-one-wins: 1.0.4
       lru: 3.1.0
       randombytes: 2.1.0
-      record-cache: 1.1.1
+      record-cache: 1.2.0
       simple-sha1: 3.1.0
     transitivePeerDependencies:
       - supports-color
@@ -2289,7 +2293,7 @@ packages:
       run-parallel: 1.2.0
       run-series: 1.1.9
       simple-get: 4.0.1
-      simple-peer: 9.11.0
+      simple-peer: 9.11.1
       simple-websocket: 9.1.0_bffff4271b89d628e8333ead80d3d8e8
       socks: 2.6.2
       string2compact: 1.3.2
@@ -3550,6 +3554,11 @@ packages:
 
   /deepmerge/2.0.1:
     resolution: {integrity: sha512-VIPwiMJqJ13ZQfaCsIFnp5Me9tnjURiaIFxfz7EH0Ci0dTSQpZtSLrqOicXqEd/z2r+z+Klk9GzmnRsgpgbOsQ==}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
+  /deepmerge/2.2.1:
+    resolution: {integrity: sha512-R9hc1Xa/NOBi9WRVUWg19rl1UB7Tt4kuPd+thNJgFZoxXsTz7ncaPaeIm+40oSGuP33DfMb4sZt1QIGiJzC4EA==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -4958,8 +4967,8 @@ packages:
     requiresBuild: true
     dev: true
 
-  /hls.js/1.1.4:
-    resolution: {integrity: sha512-KdEBseT9K8xOWDRar97xmV6+L3X+Hruz6adUjhS9xozuPGhVqUPzkpyQaXhs4cbxy8sMwotPyy+0eex9zzJuuQ==}
+  /hls.js/1.1.5:
+    resolution: {integrity: sha512-mQX5TSNtJEzGo5HPpvcQgCu+BWoKDQM6YYtg/KbgWkmVAcqOCvSTi0SuqG2ZJLXxIzdnFcKU2z7Mrw/YQWhPOA==}
     dev: true
 
   /hmac-drbg/1.0.1:
@@ -7691,8 +7700,10 @@ packages:
     dev: true
     optional: true
 
-  /record-cache/1.1.1:
-    resolution: {integrity: sha512-L5hZlgWc7CmGbztnemQoKE1bLu9rtI2skOB0ttE4C5+TVszLE8Rd0YLTROSgvXKLAqPumS/soyN5tJW5wJLmJQ==}
+  /record-cache/1.2.0:
+    resolution: {integrity: sha512-kyy3HWCez2WrotaL3O4fTn0rsIdfRKOdQQcEJ9KpvmKmbffKVvwsloX063EgRUlpJIXHiDQFhJcTbZequ2uTZw==}
+    dependencies:
+      b4a: 1.3.1
     dev: true
 
   /reduce/1.0.2:
@@ -8143,8 +8154,8 @@ packages:
       eme-encryption-scheme-polyfill: 2.0.3
     dev: true
 
-  /shaka-player/3.3.1:
-    resolution: {integrity: sha512-aBO5Em/1vxAuEQ7Ye4gHIFyj1s77w/dHmUFjtjmV3J4YQw+P9A3R54Y9RRWpyhsHq2BX3r53RxdxtIwmh+SMtQ==}
+  /shaka-player/3.3.2:
+    resolution: {integrity: sha512-6N9J/Dy7xprT8xKcs9+YYiEJsXfKn3xtVzLndLRFP2hR13tn3YzVhP83hZmbnLzOEFBpuYlRq4kNrBNlOA+4/g==}
     dependencies:
       eme-encryption-scheme-polyfill: 2.0.3
     dev: true
@@ -8177,8 +8188,8 @@ packages:
       simple-concat: 1.0.1
     dev: true
 
-  /simple-peer/9.11.0:
-    resolution: {integrity: sha512-qvdNu/dGMHBm2uQ7oLhQBMhYlrOZC1ywXNCH/i8I4etxR1vrjCnU6ZSQBptndB1gcakjo2+w4OHo7Sjza1SHxg==}
+  /simple-peer/9.11.1:
+    resolution: {integrity: sha512-D1SaWpOW8afq1CZGWB8xTfrT3FekjQmPValrqncJMX7QFl8YwhrPTZvMCANLtgBwwdS+7zURyqxDDEmY558tTw==}
     dependencies:
       buffer: 6.0.3
       debug: 4.3.3
@@ -8897,6 +8908,10 @@ packages:
       punycode: 2.1.1
     dev: true
 
+  /ts-deepmerge/2.0.1:
+    resolution: {integrity: sha512-2RpGIE0YVW6blKY756MP74czemC9x4XThhNCxq0A14Owm3ac8tZvigPbpZyZZQSyfOc7Qba5kG5xKBq74ihZfA==}
+    dev: true
+
   /tslib/2.3.1:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: true
@@ -9286,6 +9301,12 @@ packages:
     resolution: {integrity: sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==}
     dev: true
 
+  /vue-class-component/7.2.6:
+    resolution: {integrity: sha512-+eaQXVrAm/LldalI272PpDe3+i4mPis0ORiMYxF6Ae4hyuCh15W8Idet7wPUEs4N4YptgFHGys4UrgNQOMyO6w==}
+    peerDependencies:
+      vue: ^2.0.0
+    dev: true
+
   /vue-hot-reload-api/2.3.4:
     resolution: {integrity: sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==}
     dev: true
@@ -9312,6 +9333,15 @@ packages:
       vue-style-loader: 4.1.3
       vue-template-compiler: 2.6.12
       webpack: 4.46.0
+    dev: true
+
+  /vue-property-decorator/9.1.2_vue-class-component@7.2.6:
+    resolution: {integrity: sha512-xYA8MkZynPBGd/w5QFJ2d/NM0z/YeegMqYTphy7NJQXbZcuU6FC6AOdUAcy4SXP+YnkerC6AfH+ldg7PDk9ESQ==}
+    peerDependencies:
+      vue: '*'
+      vue-class-component: '*'
+    dependencies:
+      vue-class-component: 7.2.6
     dev: true
 
   /vue-router/3.5.1:
@@ -9401,8 +9431,18 @@ packages:
       vuepress-mergeable: 1.1.4
     dev: true
 
-  /vuepress-plugin-mmedia/1.3.0:
-    resolution: {integrity: sha512-nkX7py1Wrb2OsLHXX5IQIYKltnRoCzVcDOkYSAoeeSePppSPBtClDuow/7QcA0bV1vQ1TUQJ0oi7BvTIabXowA==}
+  /vuepress-plugin-one-click-copy/1.0.6:
+    resolution: {integrity: sha512-apFCcsBwk9IEDm5HwD6dwor30rl8gr0VjPkmrQlFSR2KD7OjK3ZUwioeEvbrcAiZBi35V6YgndLAHksJXRfpnQ==}
+    dev: true
+
+  /vuepress-plugin-pangu/1.0.1:
+    resolution: {integrity: sha512-H08S6HThjOZywswtjeWsj+fsWj1Duy3UHdj2YDsv21Ykkcfc7sIb3tE30jp2lMWdMWTk/ExWYVoGsaDFAmxGEA==}
+    dependencies:
+      markdown-it-pangu: 1.0.2
+    dev: true
+
+  /vuepress-plugin-sbmedia/1.3.2-beta.2:
+    resolution: {integrity: sha512-LBMLtbDXBml9mbACWrHZmgZ4qkYLZ1+B3fQ/aqXi5ahxTAFP7NuCdP5/L92OmlYS7j9+/FrQy6+Gzxpq6cKfqA==}
     dependencies:
       aplayer: 1.10.1
       artplayer: 4.3.1
@@ -9411,9 +9451,12 @@ packages:
       deepmerge: 4.2.2
       dplayer: 1.26.0
       flv.js: 1.6.2
-      hls.js: 1.1.4
-      shaka-player: 3.3.1
-      webtorrent: 1.8.1
+      hls.js: 1.1.5
+      shaka-player: 3.3.2
+      ts-deepmerge: 2.0.1
+      vue-class-component: 7.2.6
+      vue-property-decorator: 9.1.2_vue-class-component@7.2.6
+      webtorrent: 1.8.3
       xgplayer: 2.31.4
       xgplayer-dash: 1.1.8
       xgplayer-flv.js: 2.3.0
@@ -9423,16 +9466,7 @@ packages:
       xgplayer-shaka: 1.1.5
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /vuepress-plugin-one-click-copy/1.0.6:
-    resolution: {integrity: sha512-apFCcsBwk9IEDm5HwD6dwor30rl8gr0VjPkmrQlFSR2KD7OjK3ZUwioeEvbrcAiZBi35V6YgndLAHksJXRfpnQ==}
-    dev: true
-
-  /vuepress-plugin-pangu/1.0.1:
-    resolution: {integrity: sha512-H08S6HThjOZywswtjeWsj+fsWj1Duy3UHdj2YDsv21Ykkcfc7sIb3tE30jp2lMWdMWTk/ExWYVoGsaDFAmxGEA==}
-    dependencies:
-      markdown-it-pangu: 1.0.2
+      - vue
     dev: true
 
   /vuepress-plugin-sitemap/2.3.1:
@@ -9716,8 +9750,8 @@ packages:
     engines: {node: '>=0.8.0'}
     dev: true
 
-  /webtorrent/1.8.1:
-    resolution: {integrity: sha512-FutW3PA5x7K8ZfBxNgZunSXlwDARyoWFjlGkWLXpni5IARJsyYmucxoPPNL4QRtMB+BKsSwe3g4HOpHseKPxWQ==}
+  /webtorrent/1.8.3:
+    resolution: {integrity: sha512-VZRYk0jvMvMpWPjZJi0pg3B8guX7uLLoDgvsxFdF1KKQDBSy8QVwL5BOJaaC3LGi+RYwBIKRGUy4DiW5SMSyng==}
     engines: {node: '>=12'}
     dependencies:
       '@webtorrent/http-node': 1.3.0
@@ -9752,7 +9786,7 @@ packages:
       run-parallel-limit: 1.1.0
       simple-concat: 1.0.1
       simple-get: 4.0.1
-      simple-peer: 9.11.0
+      simple-peer: 9.11.1
       simple-sha1: 3.1.0
       speed-limiter: 1.0.2
       speedometer: 1.1.0
@@ -9887,7 +9921,7 @@ packages:
   /xgplayer-dash/1.1.8:
     resolution: {integrity: sha512-tcQ8cTL87F6Rym78wk47FNADn74XYa/5yVxj/y/cPRGU0DmfSSeWDwbq/zHLTGWjrFUOQhMJaGxEJFqUqY65Xw==}
     dependencies:
-      deepmerge: 2.0.1
+      deepmerge: 2.2.1
       event-emitter: 0.3.5
       querystring: 0.2.0
     dev: true
@@ -9956,7 +9990,7 @@ packages:
       deepmerge: 2.0.1
       event-emitter: 0.3.5
       eventemitter3: 4.0.7
-      hls.js: 1.1.4
+      hls.js: 1.1.5
       xgplayer: 2.31.4
     dev: true
 
@@ -9972,7 +10006,7 @@ packages:
   /xgplayer-music/2.3.2:
     resolution: {integrity: sha512-OX86bmQIbSk6abT3CiWhqpkONTicaZO+H1m3m5pyVJWcANyuZvkshQLHAu4H9gdeuOo+J98+Sfnbmit5/rCEIg==}
     dependencies:
-      deepmerge: 2.0.1
+      deepmerge: 2.2.1
       event-emitter: 0.3.5
     dev: true
 
