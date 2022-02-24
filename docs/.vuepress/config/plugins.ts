@@ -2,7 +2,7 @@ import { UserPlugins } from "vuepress/config";
 
 export default <UserPlugins>{
   sitemap: { hostname: "https://www.u2sb.com" },
-  sbmedia: {
+  smplayer: {
     artplayer: {
       src: {
         playbackRate: true,

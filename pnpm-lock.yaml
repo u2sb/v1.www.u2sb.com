@@ -13,8 +13,8 @@ specifiers:
   vuepress-plugin-mathjax: ^1.2.8
   vuepress-plugin-one-click-copy: ^1.0.6
   vuepress-plugin-pangu: ^1.0.1
-  vuepress-plugin-sbmedia: ^1.3.2-beta.3
   vuepress-plugin-sitemap: ^2.3.1
+  vuepress-plugin-smplayer: ^1.3.5
   vuepress-plugin-thirdparty-search: ^1.0.2
   vuepress-plugin-zooming: ^1.1.8
   vuepress-theme-vdoing: ^1.9.4
@@ -32,8 +32,8 @@ devDependencies:
   vuepress-plugin-mathjax: 1.2.8
   vuepress-plugin-one-click-copy: 1.0.6
   vuepress-plugin-pangu: 1.0.1
-  vuepress-plugin-sbmedia: 1.3.2-beta.3
   vuepress-plugin-sitemap: 2.3.1
+  vuepress-plugin-smplayer: 1.3.5
   vuepress-plugin-thirdparty-search: 1.0.2
   vuepress-plugin-zooming: 1.1.8
   vuepress-theme-vdoing: 1.9.4
@@ -9441,8 +9441,25 @@ packages:
       markdown-it-pangu: 1.0.2
     dev: true
 
-  /vuepress-plugin-sbmedia/1.3.2-beta.3:
-    resolution: {integrity: sha512-zPf0o9FwrYmTkB3SMg1nb/kX5thN7C8TgG7fKSNuZhWu0W4x7Ai96SY+/z31y7tesAJ9ITNEcdOr3ZlQbnO5xA==}
+  /vuepress-plugin-sitemap/2.3.1:
+    resolution: {integrity: sha512-n+8lbukhrKrsI9H/EX0EBgkE1pn85LAQFvQ5dIvrZP4Kz6JxPOPPNTQmZMhahQV1tXbLZQCEN7A1WZH4x+arJQ==}
+    hasBin: true
+    peerDependencies:
+      chalk: ^2.0.0
+      commander: ^2.0.0
+      esm: ^3.0.0
+    dependencies:
+      sitemap: 3.2.2
+    dev: true
+
+  /vuepress-plugin-smooth-scroll/0.0.3:
+    resolution: {integrity: sha512-qsQkDftLVFLe8BiviIHaLV0Ea38YLZKKonDGsNQy1IE0wllFpFIEldWD8frWZtDFdx6b/O3KDMgVQ0qp5NjJCg==}
+    dependencies:
+      smoothscroll-polyfill: 0.4.4
+    dev: true
+
+  /vuepress-plugin-smplayer/1.3.5:
+    resolution: {integrity: sha512-OVzzR69uWEr5RRqBfvyle/5nUHlCg2v6yoVsOoByRpvvI+2xgoIh7vtaXCpQYX/T2vNttsRO2c4vjCQVofgXaA==}
     dependencies:
       aplayer: 1.10.1
       artplayer: 4.3.1
@@ -9467,23 +9484,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
       - vue
-    dev: true
-
-  /vuepress-plugin-sitemap/2.3.1:
-    resolution: {integrity: sha512-n+8lbukhrKrsI9H/EX0EBgkE1pn85LAQFvQ5dIvrZP4Kz6JxPOPPNTQmZMhahQV1tXbLZQCEN7A1WZH4x+arJQ==}
-    hasBin: true
-    peerDependencies:
-      chalk: ^2.0.0
-      commander: ^2.0.0
-      esm: ^3.0.0
-    dependencies:
-      sitemap: 3.2.2
-    dev: true
-
-  /vuepress-plugin-smooth-scroll/0.0.3:
-    resolution: {integrity: sha512-qsQkDftLVFLe8BiviIHaLV0Ea38YLZKKonDGsNQy1IE0wllFpFIEldWD8frWZtDFdx6b/O3KDMgVQ0qp5NjJCg==}
-    dependencies:
-      smoothscroll-polyfill: 0.4.4
     dev: true
 
   /vuepress-plugin-thirdparty-search/1.0.2:

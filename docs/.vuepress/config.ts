@@ -14,5 +14,5 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: "vdoing",
   themeConfig: themeConfig,
   markdown: markdown,
-  plugins: plugins
+  plugins: plugins,
 });
