@@ -3,6 +3,9 @@ import { UserPlugins } from "vuepress/config";
 export default <UserPlugins>{
   sitemap: { hostname: "https://www.u2sb.com" },
   smplayer: {
+    meting: {
+      api: "https://sm.sm9.top/api/meting?server=:server&type=:type&id=:id&r=:r",
+    },
     artplayer: {
       src: {
         playbackRate: true,
