@@ -1,36 +1,49 @@
 import { UserPlugins } from "vuepress/config";
+import fs from "fs";
+import { resolve } from "path";
 
-export default <UserPlugins>{
-  sitemap: { hostname: "https://www.u2sb.com" },
-  smplayer: {
-    meting: {
-      api: "https://sm.sm9.top/api/meting?server=:server&type=:type&id=:id&r=:r",
-    },
-    artplayer: {
-      src: {
-        playbackRate: true,
-        whitelist: ["*"],
+const hostname = `https://${fs.readFileSync(
+  resolve(__dirname, "../public", "CNAME")
+)}`;
+
+export default <UserPlugins>[
+  ["sitemap", { hostname }],
+  [
+    "smplayer",
+    {
+      meting: {
+        api: "https://sm.sm9.top/api/meting?server=:server&type=:type&id=:id&r=:r",
+      },
+      artplayer: {
+        src: {
+          playbackRate: true,
+          whitelist: ["*"],
+        },
       },
     },
-  },
-  pangu: {},
-
-  "one-click-copy": {
-    copySelector: [
-      'div[class*="language-"] pre',
-      'div[class*="aside-code"] aside',
-    ],
-    copyMessage: "复制成功",
-    duration: 1000,
-    showInMobile: false,
-  },
-  // 放大图片
-  zooming: {
-    selector: ".theme-vdoing-content img:not(.no-zoom)", // 排除class是no-zoom的图片
-    options: {
-      bgColor: "rgba(0,0,0,0.6)",
+  ],
+  ["pangu"],
+  [
+    "one-click-copy",
+    {
+      copySelector: [
+        'div[class*="language-"] pre',
+        'div[class*="aside-code"] aside',
+      ],
+      copyMessage: "复制成功",
+      duration: 1000,
+      showInMobile: false,
     },
-  },
-  "fulltext-search": {},
-  "smooth-scroll": {},
-};
+  ],
+  [
+    "zooming",
+    {
+      selector: ".theme-vdoing-content img:not(.no-zoom)", // 排除class是no-zoom的图片
+      options: {
+        bgColor: "rgba(0,0,0,0.6)",
+      },
+    },
+  ],
+  ["fulltext-search"],
+  ["smooth-scroll"],
+];

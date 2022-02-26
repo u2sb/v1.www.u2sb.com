@@ -12,7 +12,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   shouldPrefetch: () => false,
   head: head,
   theme: "vdoing",
-  themeConfig: themeConfig,
-  markdown: markdown,
-  plugins: plugins,
+  themeConfig,
+  markdown,
+  plugins,
 });
