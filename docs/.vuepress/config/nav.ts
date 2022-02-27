@@ -14,8 +14,8 @@ export default <Array<NavItem>>[
         link: "/open-sw/#MetingJsServer"
       },
       {
-        text: "vuepress-plugin-mmedia",
-        link: "/open-sw/#vuepress-plugin-mmedia"
+        text: "vuepress-plugin-smplayer",
+        link: "/open-sw/#vuepress-plugin-smplayer"
       },
       {
         text: "hexo-tag-mmedia",
