@@ -14,7 +14,7 @@ specifiers:
   vuepress-plugin-one-click-copy: ^1.0.6
   vuepress-plugin-pangu: ^1.0.1
   vuepress-plugin-sitemap: ^2.3.1
-  vuepress-plugin-smplayer: ^1.3.7
+  vuepress-plugin-smplayer: ^1.3.8
   vuepress-plugin-thirdparty-search: ^1.0.2
   vuepress-plugin-zooming: ^1.1.8
   vuepress-theme-vdoing: ^1.9.5
@@ -33,7 +33,7 @@ devDependencies:
   vuepress-plugin-one-click-copy: 1.0.6
   vuepress-plugin-pangu: 1.0.1
   vuepress-plugin-sitemap: 2.3.1
-  vuepress-plugin-smplayer: 1.3.7
+  vuepress-plugin-smplayer: 1.3.8
   vuepress-plugin-thirdparty-search: 1.0.2
   vuepress-plugin-zooming: 1.1.8
   vuepress-theme-vdoing: 1.9.5
@@ -9458,8 +9458,8 @@ packages:
       smoothscroll-polyfill: 0.4.4
     dev: true
 
-  /vuepress-plugin-smplayer/1.3.7:
-    resolution: {integrity: sha512-IFqoLF4G0JgyRUYO/pHhoPq9LNAI9NHyhE7h7wKFiNBwDb9BroP3ftOwAebzaEKBZ+X8YCYAdML/QI/Z4eN/bQ==}
+  /vuepress-plugin-smplayer/1.3.8:
+    resolution: {integrity: sha512-e2K6rUwHA297ZWFCdqbp49OUalue2e7k/o8RRm1QN7llyL87VzLIUHVLZZPEt/cCUG5LDTxuuk05RuD21/kxFg==}
     dependencies:
       aplayer: 1.10.1
       artplayer: 4.3.1
