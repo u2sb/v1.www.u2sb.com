@@ -14,7 +14,7 @@ specifiers:
   vuepress-plugin-one-click-copy: ^1.0.6
   vuepress-plugin-pangu: ^1.0.1
   vuepress-plugin-sitemap: ^2.3.1
-  vuepress-plugin-smplayer: ^1.4.0
+  vuepress-plugin-smplayer: ^1.4.1
   vuepress-plugin-thirdparty-search: ^1.0.2
   vuepress-plugin-zooming: ^1.1.8
   vuepress-theme-vdoing: ^1.9.5
@@ -33,7 +33,7 @@ devDependencies:
   vuepress-plugin-one-click-copy: 1.0.6
   vuepress-plugin-pangu: 1.0.1
   vuepress-plugin-sitemap: 2.3.1
-  vuepress-plugin-smplayer: 1.4.0
+  vuepress-plugin-smplayer: 1.4.1
   vuepress-plugin-thirdparty-search: 1.0.2
   vuepress-plugin-zooming: 1.1.8
   vuepress-theme-vdoing: 1.9.5
@@ -2986,7 +2986,7 @@ packages:
   /compact2string/1.4.1:
     resolution: {integrity: sha512-3D+EY5nsRhqnOwDxveBv5T8wGo4DEvYxjDtPGmdOX+gfr5gE92c2RC0w2wa+xEefm07QuVqqcF3nZJUZ92l/og==}
     dependencies:
-      ipaddr.js: 2.0.1
+      ipaddr.js: 1.9.1
     dev: true
 
   /component-emitter/1.3.0:
@@ -3443,8 +3443,8 @@ packages:
       assert-plus: 1.0.0
     dev: true
 
-  /dashjs/4.2.1:
-    resolution: {integrity: sha512-Qx7Lo4jnVg3UjjVXZenePj3bxs3eoYmfgEucrZ3E/gMUHwBi3/9nPuBqGJEOX5WwMleayABqMsFGZcFR4iwx/w==}
+  /dashjs/4.3.0:
+    resolution: {integrity: sha512-cqpnJaPQpEY4DsEdF9prwD00+5dp5EGHCFc7yo9n2uuAH9k4zPkZJwXQ8dXmVRhPf3M89JfKSoAYIP3dbXmqcg==}
     dependencies:
       codem-isoboxer: 0.3.6
       es6-promise: 4.2.8
@@ -8874,8 +8874,8 @@ packages:
     resolution: {integrity: sha1-LmhELZ9k7HILjMieZEOsbKqVACk=}
     dev: true
 
-  /torrent-discovery/9.4.7:
-    resolution: {integrity: sha512-7Zw474LJE5r3Momi4ykBYkjgcFhENbUxcAFs5cBllUkv9ErJPzPEGmpEuqX7V8TkLS+Clmt/l5CjV5IFHg/A/A==}
+  /torrent-discovery/9.4.8:
+    resolution: {integrity: sha512-7CO52Ugze+Fj4XySCY+vHARr8+TWlZZqTT2vErA8CfgT+1dpUJf0ncYt38e/Ajvg7iCbvyJnuHRBMzujF70EQQ==}
     dependencies:
       bittorrent-dht: 10.0.2
       bittorrent-lsd: 1.1.1
@@ -9458,13 +9458,13 @@ packages:
       smoothscroll-polyfill: 0.4.4
     dev: true
 
-  /vuepress-plugin-smplayer/1.4.0:
-    resolution: {integrity: sha512-ibV1llu9hxBqVpzVTwN7SDWOzv6BtIN/aoMvt118/CZauFvH6leFZTkRDCrVSpU0xMyrxWtyQZ6yOQpg/37F+g==}
+  /vuepress-plugin-smplayer/1.4.1:
+    resolution: {integrity: sha512-UeAucsIVDOAip2AP9kp7H5AchBSNBc/vCVH92gVuMmfj54WhIyrx+b3T28Mqrmmobam9rTgypG6Gl9l0UCLBOg==}
     dependencies:
       aplayer: 1.10.1
       artplayer: 4.3.1
       artplayer-plugin-danmuku: 4.3.0
-      dashjs: 4.2.1
+      dashjs: 4.3.0
       deepmerge: 4.2.2
       dplayer: 1.26.0
       flv.js: 1.6.2
@@ -9473,7 +9473,7 @@ packages:
       ts-deepmerge: 2.0.1
       vue-class-component: 7.2.6
       vue-property-decorator: 9.1.2_vue-class-component@7.2.6
-      webtorrent: 1.8.3
+      webtorrent: 1.8.4
       xgplayer: 2.31.4
       xgplayer-dash: 1.1.8
       xgplayer-flv.js: 2.3.0
@@ -9750,8 +9750,8 @@ packages:
     engines: {node: '>=0.8.0'}
     dev: true
 
-  /webtorrent/1.8.3:
-    resolution: {integrity: sha512-VZRYk0jvMvMpWPjZJi0pg3B8guX7uLLoDgvsxFdF1KKQDBSy8QVwL5BOJaaC3LGi+RYwBIKRGUy4DiW5SMSyng==}
+  /webtorrent/1.8.4:
+    resolution: {integrity: sha512-XX3tJYh010HCua3F2Xwhzro0ola8CtX9j3uLwx9OMv7waTyS03+qBPU81QQ+tVDgkoIM923NQRwNkethuRit/w==}
     engines: {node: '>=12'}
     dependencies:
       '@webtorrent/http-node': 1.3.0
@@ -9793,7 +9793,7 @@ packages:
       stream-to-blob: 2.0.1
       stream-to-blob-url: 3.0.2
       stream-with-known-length-to-buffer: 1.0.4
-      torrent-discovery: 9.4.7
+      torrent-discovery: 9.4.8
       torrent-piece: 2.0.1
       unordered-array-remove: 1.0.2
       ut_metadata: 3.5.2
