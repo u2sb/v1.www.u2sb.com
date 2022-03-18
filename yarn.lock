@@ -994,6 +994,13 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
+"@types/bittorrent-protocol@*":
+  version "3.1.2"
+  resolved "https://registry.npmmirror.com/@types/bittorrent-protocol/-/bittorrent-protocol-3.1.2.tgz#884cf1589fa8b1f7a6cc39bd516922a96ce08221"
+  integrity sha512-7k9nivNeG7Sc8wVuBs+XjBp2u7pH8tqW3BB93/SAg3xht/cZEK+Rqkj79xSyJqyj86eA0F6n85EKkkyGki8afg==
+  dependencies:
+    "@types/node" "*"
+
 "@types/body-parser@*":
   version "1.19.2"
   resolved "https://registry.npmmirror.com/@types/body-parser/-/body-parser-1.19.2.tgz#aea2059e28b7658639081347ac4fab3de166e6f0"
@@ -1016,6 +1023,11 @@
   integrity sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==
   dependencies:
     "@types/node" "*"
+
+"@types/dplayer@^1.25.2":
+  version "1.25.2"
+  resolved "https://registry.npmmirror.com/@types/dplayer/-/dplayer-1.25.2.tgz#2155a9ca4daf419deaa6bba8d10d29bad6a10cb8"
+  integrity sha512-bkTVZkK3Vi7N7eX2FUBnqKhCjTaeRLkhvY8H6zolatbSTtjPPdxyUzhE3C29sIBYRRq1kQHSduFgCHKg5VF3Jw==
 
 "@types/express-serve-static-core@*", "@types/express-serve-static-core@^4.17.18":
   version "4.17.28"
@@ -1066,6 +1078,13 @@
   resolved "https://registry.npmmirror.com/@types/linkify-it/-/linkify-it-3.0.2.tgz#fd2cd2edbaa7eaac7e7f3c1748b52a19143846c9"
   integrity sha512-HZQYqbiFVWufzCwexrvh694SOim8z2d+xJl5UNamcvQFejLY/2YUtzXHYi3cHdI7PMlS8ejH2slRAOJQ32aNbA==
 
+"@types/magnet-uri@*":
+  version "5.1.3"
+  resolved "https://registry.npmmirror.com/@types/magnet-uri/-/magnet-uri-5.1.3.tgz#cdf974721012bd758c0f559cabcad7bab87f9008"
+  integrity sha512-FvJN1yYdLhvU6zWJ2YnWQ2GnpFLsA8bt+85WY0tLh6ehzGNrvBorjlcc53/zY43r/IKn+ctFs1nt7andwGnQCQ==
+  dependencies:
+    "@types/node" "*"
+
 "@types/markdown-it@^10.0.0":
   version "10.0.3"
   resolved "https://registry.npmmirror.com/@types/markdown-it/-/markdown-it-10.0.3.tgz#a9800d14b112c17f1de76ec33eff864a4815eec7"
@@ -1096,6 +1115,22 @@
   resolved "https://registry.npmmirror.com/@types/node/-/node-17.0.21.tgz#864b987c0c68d07b4345845c3e63b75edd143644"
   integrity sha512-DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==
 
+"@types/parse-torrent-file@*":
+  version "4.0.3"
+  resolved "https://registry.npmmirror.com/@types/parse-torrent-file/-/parse-torrent-file-4.0.3.tgz#045b023426d168e0253c932cb782b231b1ee2d62"
+  integrity sha512-dFkPnJPKiFWiGX+HXmyTVt2js3k0d9dThmUxX8nfGC22hbyZ5BTmetsEl45sQhHLcFo43njVrIKMXM3F1ahXRw==
+  dependencies:
+    "@types/node" "*"
+
+"@types/parse-torrent@*":
+  version "5.8.4"
+  resolved "https://registry.npmmirror.com/@types/parse-torrent/-/parse-torrent-5.8.4.tgz#c095834a9a815507c59014a79517ad403e4329d0"
+  integrity sha512-FdKs5yN5iYO5Cu9gVz1Zl30CbZe6HTsqloWmCf+LfbImgSzlsUkov2+npQWCQSQ3zi/a2G5C824K0UpZ2sRufA==
+  dependencies:
+    "@types/magnet-uri" "*"
+    "@types/node" "*"
+    "@types/parse-torrent-file" "*"
+
 "@types/q@^1.5.1":
   version "1.5.5"
   resolved "https://registry.npmmirror.com/@types/q/-/q-1.5.5.tgz#75a2a8e7d8ab4b230414505d92335d1dcb53a6df"
@@ -1117,6 +1152,13 @@
   integrity sha512-nCkHGI4w7ZgAdNkrEu0bv+4xNV/XDqW+DydknebMOQwkpDGx8G+HTlj7R7ABI8i8nKxVw0wtKPi1D+lPOkh4YQ==
   dependencies:
     "@types/mime" "^1"
+    "@types/node" "*"
+
+"@types/simple-peer@*":
+  version "9.11.4"
+  resolved "https://registry.npmmirror.com/@types/simple-peer/-/simple-peer-9.11.4.tgz#1c358fcd9cb58318e27928ee90289fb0e3f50070"
+  integrity sha512-Elje14YvM47k+XEaoyRAeUSvZN7TOLWYL233QCckUaXjT4lRESHnYs0iOK2JoosO5DnCvWu/0Vpl9qnw4KCLWw==
+  dependencies:
     "@types/node" "*"
 
 "@types/source-list-map@*":
@@ -1167,6 +1209,16 @@
     "@types/webpack-sources" "*"
     anymatch "^3.0.0"
     source-map "^0.6.0"
+
+"@types/webtorrent@^0.109.3":
+  version "0.109.3"
+  resolved "https://registry.npmmirror.com/@types/webtorrent/-/webtorrent-0.109.3.tgz#95df708d98bcea235b37f49a9a348b11f3511670"
+  integrity sha512-EJLsxMEcEjPXHcBqL6TRAbUwIpxAul5ULrXHJ0zwig7Oe70FS6dAzCWLq4MBafX3QrQG1DzGAS0fS8iJEOjD0g==
+  dependencies:
+    "@types/bittorrent-protocol" "*"
+    "@types/node" "*"
+    "@types/parse-torrent" "*"
+    "@types/simple-peer" "*"
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
   version "1.2.1"
@@ -3893,7 +3945,7 @@ es6-iterator@^2.0.3:
     es5-ext "^0.10.35"
     es6-symbol "^3.1.1"
 
-es6-promise@^4.1.0, es6-promise@^4.2.4, es6-promise@^4.2.8:
+es6-promise@^4.1.0, es6-promise@^4.2.4, es6-promise@^4.2.5, es6-promise@^4.2.8:
   version "4.2.8"
   resolved "https://registry.npmmirror.com/es6-promise/-/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
   integrity sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w==
@@ -4397,14 +4449,6 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
-
-flv.js@^1.6.2:
-  version "1.6.2"
-  resolved "https://registry.npmmirror.com/flv.js/-/flv.js-1.6.2.tgz#fa3340fe3f7ee01d3977f7876aee66b8436e5922"
-  integrity sha512-xre4gUbX1MPtgQRKj2pxJENp/RnaHaxYvy3YToVVCrSmAWUu85b9mug6pTXF6zakUjNP2lFWZ1rkSX7gxhB/2A==
-  dependencies:
-    es6-promise "^4.2.8"
-    webworkify-webpack "^2.1.5"
 
 follow-redirects@1.5.10:
   version "1.5.10"
@@ -6444,6 +6488,14 @@ mp4-stream@^3.0.0:
     next-event "^1.0.0"
     queue-microtask "^1.2.2"
     readable-stream "^3.0.6"
+
+mpegts.js@^1.6.10:
+  version "1.6.10"
+  resolved "https://registry.npmmirror.com/mpegts.js/-/mpegts.js-1.6.10.tgz#a2ff64039283e62a9e50223f4ce02adea1ffd132"
+  integrity sha512-ZgX4b93cWk+EazOFRV4lekLqmc4rV7P+WMisG8N0F2M4/EiluPMNNWjuaurQfitak++AIc/ZVQ3IgM3cBcH7WA==
+  dependencies:
+    es6-promise "^4.2.5"
+    webworkify-webpack "^2.1.5"
 
 ms@2.0.0:
   version "2.0.0"
@@ -9013,11 +9065,6 @@ tr46@~0.0.3:
   resolved "https://registry.npmmirror.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
   integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
 
-ts-deepmerge@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmmirror.com/ts-deepmerge/-/ts-deepmerge-2.0.1.tgz#cd24f52b17e34baeac7867477cc0cefe5d0d291b"
-  integrity sha512-2RpGIE0YVW6blKY756MP74czemC9x4XThhNCxq0A14Owm3ac8tZvigPbpZyZZQSyfOc7Qba5kG5xKBq74ihZfA==
-
 tslib@^2.2.0:
   version "2.3.1"
   resolved "https://registry.npmmirror.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
@@ -9577,21 +9624,22 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-plugin-smplayer@^1.4.4:
-  version "1.4.4"
-  resolved "https://registry.npmmirror.com/vuepress-plugin-smplayer/-/vuepress-plugin-smplayer-1.4.4.tgz#080e8db179ff7127355ce268b8ff4fc3fbb57b01"
-  integrity sha512-ewt3qP2tPiqUJ7JJRV7bx/72+fISsjlI0OZdRQcY+rBIFzfe2ByaMHal82DyO9tiR/j+0e8NR2r+9/3nKag5GQ==
+vuepress-plugin-smplayer@^1.4.5:
+  version "1.4.5"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-smplayer/-/vuepress-plugin-smplayer-1.4.5.tgz#09a0bb46680640ef5e1fcfe512b4d92cff1284b6"
+  integrity sha512-kW+ZKwTbmhOa5nSPMafwlWeRQ8fHFdeq+bvNKof7cdW1AJrZmaAIvw65M82KFdjvSpb6UnKu+cHg77vyc1nTXg==
   dependencies:
+    "@types/dplayer" "^1.25.2"
+    "@types/webtorrent" "^0.109.3"
     aplayer "^1.10.1"
     artplayer "^4.3.1"
     artplayer-plugin-danmuku "^4.3.0"
     dashjs "^4.3.0"
     deepmerge "^4.2.2"
     dplayer "^1.26.0"
-    flv.js "^1.6.2"
     hls.js "^1.1.5"
+    mpegts.js "^1.6.10"
     shaka-player "^3.3.1"
-    ts-deepmerge "^2.0.1"
     vue-class-component "^7.2.6"
     vue-property-decorator "^9.1.2"
     webtorrent "^1.8.6"
@@ -9615,10 +9663,10 @@ vuepress-plugin-zooming@^1.1.8:
   dependencies:
     zooming "^2.1.1"
 
-vuepress-theme-vdoing@^1.9.5:
-  version "1.9.5"
-  resolved "https://registry.npmmirror.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.9.5.tgz#7cbb8947c9514bbbe5081f8e2d038d5faa766dda"
-  integrity sha512-B9UKqdFa6wyX3BcEMwePR7r/K7HWaNabVi+kO4CJwE3g2D8xin8bzgUO/VNv+k/EGQQoqcymYfdyYXo90/7log==
+vuepress-theme-vdoing@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.npmmirror.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.10.0.tgz#b6af7bc8005d7a73cfc36df1aaf21041cf2356dc"
+  integrity sha512-Hf7aRt28Dy9sKBUnb5g7+URyGeSnZSYk9TcfGL/5nh0r9VpAWdhWAyakCt8chZu7/pjbJor3gcXkWsdgJ9Tx9A==
   dependencies:
     "@better-scroll/core" "^2.0.0-beta.6"
     "@better-scroll/slide" "^2.0.0-beta.6"
