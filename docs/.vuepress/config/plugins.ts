@@ -1,6 +1,22 @@
 import { UserPlugins } from "vuepress/config";
 import fs from "fs";
 import { resolve } from "path";
+import player, { SmPlayerPluginOption } from "vuepress-plugin-smplayer";
+
+const smplayer: [typeof player, SmPlayerPluginOption] = [
+  player,
+  {
+    meting: {
+      api: "https://sm.sm9.top/api/meting?server=:server&type=:type&id=:id&r=:r",
+    },
+    artplayer: {
+      src: {
+        playbackRate: true,
+        whitelist: ["*"],
+      },
+    },
+  },
+];
 
 const hostname = `https://${fs.readFileSync(
   resolve(__dirname, "../public", "CNAME")
@@ -8,20 +24,7 @@ const hostname = `https://${fs.readFileSync(
 
 export default <UserPlugins>[
   ["sitemap", { hostname }],
-  [
-    "smplayer",
-    {
-      meting: {
-        api: "https://sm.sm9.top/api/meting?server=:server&type=:type&id=:id&r=:r",
-      },
-      artplayer: {
-        src: {
-          playbackRate: true,
-          whitelist: ["*"],
-        },
-      },
-    },
-  ],
+  smplayer,
   ["pangu"],
   [
     "one-click-copy",

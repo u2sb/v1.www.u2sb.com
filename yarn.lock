@@ -1895,10 +1895,10 @@ artplayer-plugin-danmuku@^4.3.0:
   resolved "https://registry.npmmirror.com/artplayer-plugin-danmuku/-/artplayer-plugin-danmuku-4.3.0.tgz#ad1a59bc1a56eecea3f0bf2bacbd73724237f150"
   integrity sha512-rWFx5I7IJYKaggcWVG/u0K6T1/C1qTNiO4DKMOIvSJNYzn11wLtp9vknyP3GVkbJ2M9PTcPfpZElcsbDxbuXcA==
 
-artplayer@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.npmmirror.com/artplayer/-/artplayer-4.3.1.tgz#8e1203129a17f19b6fe5de216d04f1bd139d6bb7"
-  integrity sha512-X0yD+PR4n07W9KMZpqX3R9kWzDF6QNaBDoeXzZU8kcFEgAwiueC4nkLR4NIVEuX02GWEEWfQgZ7Q2rNn6tLIrA==
+artplayer@^4.3.4:
+  version "4.3.4"
+  resolved "https://registry.npmmirror.com/artplayer/-/artplayer-4.3.4.tgz#ea578552530258d71f231b207c8e32c1248a3b47"
+  integrity sha512-Ma60cC1n4G/CFPo8zOGglRU1u/OFnJGp1hJ4fe5rWIFFsCDx3D6OvfBZDMlkRreHQt8DBW0BF/oGGM6Rq0nv1g==
   dependencies:
     option-validator "^2.0.6"
     screenfull "^6.0.1"
@@ -3451,6 +3451,13 @@ debug@^4.1.0, debug@^4.1.1, debug@^4.2.0, debug@^4.3.1, debug@^4.3.2, debug@^4.3
   version "4.3.3"
   resolved "https://registry.npmmirror.com/debug/-/debug-4.3.3.tgz#04266e0b70a98d4462e6e288e38259213332b664"
   integrity sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==
+  dependencies:
+    ms "2.1.2"
+
+debug@^4.3.4:
+  version "4.3.4"
+  resolved "https://registry.npmmirror.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
+  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
   dependencies:
     ms "2.1.2"
 
@@ -9624,15 +9631,15 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-plugin-smplayer@^1.4.5:
-  version "1.4.5"
-  resolved "https://registry.npmmirror.com/vuepress-plugin-smplayer/-/vuepress-plugin-smplayer-1.4.5.tgz#09a0bb46680640ef5e1fcfe512b4d92cff1284b6"
-  integrity sha512-kW+ZKwTbmhOa5nSPMafwlWeRQ8fHFdeq+bvNKof7cdW1AJrZmaAIvw65M82KFdjvSpb6UnKu+cHg77vyc1nTXg==
+vuepress-plugin-smplayer@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-smplayer/-/vuepress-plugin-smplayer-1.5.0.tgz#8a8fb048a510dd93bb8ac6e6ade470b10c3cf221"
+  integrity sha512-pSFttU2yWlWbrW/QeRreGpkDLMovMy84RCouE0Jnnpy4UduOdLw5QwJmilywXfEyJLI4WZxiIcw0XfQoDG+qxA==
   dependencies:
     "@types/dplayer" "^1.25.2"
     "@types/webtorrent" "^0.109.3"
     aplayer "^1.10.1"
-    artplayer "^4.3.1"
+    artplayer "^4.3.4"
     artplayer-plugin-danmuku "^4.3.0"
     dashjs "^4.3.0"
     deepmerge "^4.2.2"
@@ -9642,7 +9649,7 @@ vuepress-plugin-smplayer@^1.4.5:
     shaka-player "^3.3.1"
     vue-class-component "^7.2.6"
     vue-property-decorator "^9.1.2"
-    webtorrent "^1.8.6"
+    webtorrent "^1.8.8"
     xgplayer "^2.31.4"
     xgplayer-dash "^1.1.8"
     xgplayer-flv.js "^2.3.0"
@@ -9890,10 +9897,10 @@ websocket-extensions@>=0.1.1:
   resolved "https://registry.npmmirror.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
   integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
-webtorrent@^1.8.6:
-  version "1.8.6"
-  resolved "https://registry.npmmirror.com/webtorrent/-/webtorrent-1.8.6.tgz#712a5ecf706dcb1d16422d8301e84f82a532275a"
-  integrity sha512-yx/y2O+IeTtkvkkjqTh5tyBjk+C/u8IqE6evOKllLs1kerVzMcbbHQMU7vgU05tThb1vRjbq3FAuU20g+HoEUg==
+webtorrent@^1.8.8:
+  version "1.8.8"
+  resolved "https://registry.npmmirror.com/webtorrent/-/webtorrent-1.8.8.tgz#6f7b237d320a5c57c4015afdbdd9edef0d5fc7ab"
+  integrity sha512-M5XUmkfYqmgqLw303Og/nbdfHPWo1D9QqOrFQgcsvILEd0f3Ibsz9ASkojS7noL7YBb4OxYxqiERcotYMGC+sw==
   dependencies:
     "@webtorrent/http-node" "^1.3.0"
     addr-to-ip-port "^1.5.4"
@@ -9905,7 +9912,7 @@ webtorrent@^1.8.6:
     chunk-store-stream "^4.3.0"
     cpus "^1.0.3"
     create-torrent "^5.0.2"
-    debug "^4.3.3"
+    debug "^4.3.4"
     end-of-stream "^1.4.4"
     escape-html "^1.0.3"
     fs-chunk-store "^2.0.4"
