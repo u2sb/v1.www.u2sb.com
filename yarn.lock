@@ -9590,10 +9590,10 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-plugin-smplayer@^1.5.0-alpha.0:
-  version "1.5.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-smplayer/-/vuepress-plugin-smplayer-1.5.0-alpha.0.tgz#76f1bac73ae9947032db2cbf168eed14441830d5"
-  integrity sha512-UT3bnUeT/7T04NwShKeBvt1LznIHEjYjcNisWC/Aok8hgrJFvXktexKkzdtfxVAVqowhlhylctrZQNMWszV+AQ==
+vuepress-plugin-smplayer@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-smplayer/-/vuepress-plugin-smplayer-1.5.2.tgz#ad4396bb3698bcce0a67b1f163c61df6b827a49d"
+  integrity sha512-5bNpwSIiD4zO4gPv53dIx6EoZuXWvEkTc3l/aoJCxitlRnOPynxLmPJBgwmOIfQ4S3CMgeGF7x0cdVUPFU24YQ==
   dependencies:
     aplayer "^1.10.1"
     artplayer "^4.3.4"
