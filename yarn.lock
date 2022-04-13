@@ -2587,7 +2587,7 @@ chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.3.0, chalk@^2.3.2, chalk@^2.4.1:
+chalk@^2.0.0, chalk@^2.3.2, chalk@^2.4.1:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
@@ -3789,7 +3789,7 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0, end-of-stream@^1.4.4:
   dependencies:
     once "^1.4.0"
 
-enhanced-resolve@^4.0.0, enhanced-resolve@^4.5.0:
+enhanced-resolve@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-4.5.0.tgz#2f3cfd84dbe3b487f18f2db2ef1e064a571ca5ec"
   integrity sha512-Nv9m36S/vxpsI+Hc4/ZGRs0n9mXqSWGGq49zxb/cJfPAQMbUtttJAlNPS4AQzaBdw/pKskw5bMbekT/Y7W/Wlg==
@@ -3876,9 +3876,9 @@ es-to-primitive@^1.2.1:
     is-symbol "^1.0.2"
 
 es5-ext@^0.10.35, es5-ext@^0.10.50, es5-ext@~0.10.14:
-  version "0.10.59"
-  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.59.tgz#71038939730eb6f4f165f1421308fb60be363bc6"
-  integrity sha512-cOgyhW0tIJyQY1Kfw6Kr0viu9ZlUctVchRMZ7R0HiH3dxTSp5zJDLecwxUqPUrGKMsgBI1wd1FL+d9Jxfi4cLw==
+  version "0.10.60"
+  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.60.tgz#e8060a86472842b93019c31c34865012449883f4"
+  integrity sha512-jpKNXIt60htYG59/9FGf2PYT3pwMpnEbNKysU+k/4FGwyGtMotOvcZOuW+EmXXYASRqYSXQfGL5cVIthOTgbkg==
   dependencies:
     es6-iterator "^2.0.3"
     es6-symbol "^3.1.3"
@@ -4464,10 +4464,10 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
-fs-chunk-store@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/fs-chunk-store/-/fs-chunk-store-2.0.4.tgz#ca797b7032a3752d1e7553cb9cec8970395cc34a"
-  integrity sha512-JfeKRPPWkLaUoNKZdi+eLPKzZkZK1pdj2Y5lidEw9fUCkglvK/muLe6ONjdvn8yAGrDsk4tkjNp52GS658yy0g==
+fs-chunk-store@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/fs-chunk-store/-/fs-chunk-store-2.0.5.tgz#1dd4bdbb371239ac6f7234af6cd4386c72315059"
+  integrity sha512-z3c2BmyaHdQTtIVXJDQOvwZVWN2gNU//0IYKK2LuPr+cZyGoIrgDwI4iDASaTUyQbOBtyg/k6GuDZepB6jQIPw==
   dependencies:
     queue-microtask "^1.2.2"
     random-access-file "^2.0.1"
@@ -6272,7 +6272,7 @@ micromatch@^3.1.10, micromatch@^3.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.2"
 
-micromatch@^4.0.0, micromatch@^4.0.2:
+micromatch@^4.0.2:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.5.tgz#bc8999a7cbbf77cdc89f132f6e467051b49090c6"
   integrity sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==
@@ -6565,9 +6565,9 @@ node-forge@^0.10.0:
   integrity sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA==
 
 node-gyp-build@^4.2.0, node-gyp-build@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.3.0.tgz#9f256b03e5826150be39c764bf51e993946d71a3"
-  integrity sha512-iWjXZvmboq0ja1pUGULQBexmxq8CV4xBhX7VDOTbL7ZR4FOowwY/VOtRxBN/yKxmdGoIp4j5ysNT4u3S2pDQ3Q==
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.4.0.tgz#42e99687ce87ddeaf3a10b99dc06abc11021f3f4"
+  integrity sha512-amJnQCcgtRVw9SvoebO3BKGESClrfXGCUTX9hSn1OuGQTQBOZmVd0Z0OlecpuRksKvbsUqALE8jls/ErClAPuQ==
 
 node-libs-browser@^2.2.1:
   version "2.2.1"
@@ -9025,17 +9025,6 @@ ts-deepmerge@^2.0.1:
   resolved "https://registry.yarnpkg.com/ts-deepmerge/-/ts-deepmerge-2.0.1.tgz#cd24f52b17e34baeac7867477cc0cefe5d0d291b"
   integrity sha512-2RpGIE0YVW6blKY756MP74czemC9x4XThhNCxq0A14Owm3ac8tZvigPbpZyZZQSyfOc7Qba5kG5xKBq74ihZfA==
 
-ts-loader@^7.0.3:
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-7.0.5.tgz#789338fb01cb5dc0a33c54e50558b34a73c9c4c5"
-  integrity sha512-zXypEIT6k3oTc+OZNx/cqElrsbBtYqDknf48OZos0NQ3RTt045fBIU8RRSu+suObBzYB355aIPGOe/3kj9h7Ig==
-  dependencies:
-    chalk "^2.3.0"
-    enhanced-resolve "^4.0.0"
-    loader-utils "^1.0.2"
-    micromatch "^4.0.0"
-    semver "^6.0.0"
-
 tslib@^2.2.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
@@ -9097,11 +9086,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typescript@^4.6.3:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.3.tgz#eefeafa6afdd31d725584c67a0eaba80f6fc6c6c"
-  integrity sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==
 
 uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"
@@ -9590,7 +9574,7 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-plugin-smplayer@^1.5.2:
+vuepress-plugin-smplayer@1:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-smplayer/-/vuepress-plugin-smplayer-1.5.2.tgz#ad4396bb3698bcce0a67b1f163c61df6b827a49d"
   integrity sha512-5bNpwSIiD4zO4gPv53dIx6EoZuXWvEkTc3l/aoJCxitlRnOPynxLmPJBgwmOIfQ4S3CMgeGF7x0cdVUPFU24YQ==
@@ -9618,14 +9602,6 @@ vuepress-plugin-thirdparty-search@^1.0.2:
   resolved "https://registry.yarnpkg.com/vuepress-plugin-thirdparty-search/-/vuepress-plugin-thirdparty-search-1.0.2.tgz#1cb9307ae9e3b7925afa5b1f1e78b867bcdef588"
   integrity sha512-qXAzHCsbe7fKdqZyI7cax6qtVZpqbW5TEp+NOwCzgN6IIrHc8vOkz+shCTvc+qzDgqE31+geT1lPFFX6LvbOFQ==
 
-vuepress-plugin-typescript@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-typescript/-/vuepress-plugin-typescript-0.3.1.tgz#6c9e2999e1346d9c1198f7995a0f4e46902f9472"
-  integrity sha512-XafM0UMG0TbkAh4UgCYkPUC95SEJKI9GQHP6W685PL8H5cOTIElALRZ5zx1H7wO+i2Jy+1NyZ20vDfwqcCChgg==
-  dependencies:
-    cache-loader "^3.0.0"
-    ts-loader "^7.0.3"
-
 vuepress-plugin-zooming@^1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-zooming/-/vuepress-plugin-zooming-1.1.8.tgz#d49f201218bbcc73bcd30a79071f0cde201327e0"
@@ -9633,10 +9609,10 @@ vuepress-plugin-zooming@^1.1.8:
   dependencies:
     zooming "^2.1.1"
 
-vuepress-theme-vdoing@^1.10.1:
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.10.1.tgz#c697a5f8db792a1900f8d883d428910467ac6595"
-  integrity sha512-o5a6eZm0b/nntjk4QpXrVckrnmzQe7fx/rDhbeOoALYuuNE9FGp3JBcDEWHr8aN3g8YThTqmqM175lY85odYfA==
+vuepress-theme-vdoing@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.11.0.tgz#fd36c06387547ae5fa4250d2e4eddf9bee30751a"
+  integrity sha512-laxgiKr0vuPK08k5PY7sp8GNkWk3kcJC24yq+q0r+PlMhWmqn48ZC3mq3Fr5IvbBtlPfP6H0URxSzU3gxpiGfg==
   dependencies:
     "@better-scroll/core" "^2.0.0-beta.6"
     "@better-scroll/slide" "^2.0.0-beta.6"
@@ -9861,9 +9837,9 @@ websocket-extensions@>=0.1.1:
   integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 webtorrent@^1.8.12:
-  version "1.8.12"
-  resolved "https://registry.yarnpkg.com/webtorrent/-/webtorrent-1.8.12.tgz#2a6930ee03256df34d444d2c0c1e0339d100c0f6"
-  integrity sha512-YJhE1ZsMmVCGnAwBI/71FhW7x8aQLWP9TY5EqUUGmwNOBKoq80sO3IRdJ63bjjEHaushcm4DF0EKmHcIeq+aTQ==
+  version "1.8.13"
+  resolved "https://registry.yarnpkg.com/webtorrent/-/webtorrent-1.8.13.tgz#b9108767ee2e9e92512e864f3b1c3ed9b9ec8139"
+  integrity sha512-CrNeCA2ZRSvG7YRVpmjyT8sr7QOa7E70k0nAAqIEIvXsYgDexwrwMe4TxH9sXbwaJCA9URSX9UBEGNZ/bjhwMg==
   dependencies:
     "@webtorrent/http-node" "^1.3.0"
     addr-to-ip-port "^1.5.4"
@@ -9878,7 +9854,7 @@ webtorrent@^1.8.12:
     debug "^4.3.4"
     end-of-stream "^1.4.4"
     escape-html "^1.0.3"
-    fs-chunk-store "^2.0.4"
+    fs-chunk-store "^2.0.5"
     immediate-chunk-store "^2.2.0"
     load-ip-set "^2.2.1"
     lt_donthave "^1.0.1"
@@ -10138,9 +10114,9 @@ xgplayer-subtitles@^1.0.19:
     generate-source-map "0.0.5"
 
 xgplayer@^2.31.4:
-  version "2.31.4"
-  resolved "https://registry.yarnpkg.com/xgplayer/-/xgplayer-2.31.4.tgz#7f95d88f80ac792aaf3592102cfd2e793df1c4eb"
-  integrity sha512-apuAucT8RMsC8t0lattoBI9g8o9Pf7ZP7G5Eh5T7CpYAC7WA8zWZiWSunidc3rAs9HZmROhRtd1RhPnIyXGJjg==
+  version "2.31.6"
+  resolved "https://registry.yarnpkg.com/xgplayer/-/xgplayer-2.31.6.tgz#2deb73bb2200ff9de85d9f2bfd838cae981d12b6"
+  integrity sha512-95mEdChOam010QCKU+putYvjbN/MPwQZwECrlG+MbTy8e7REpVEgTmko6f5FRQoPAMV7k7veLgZrCaMUDuV81A==
   dependencies:
     chalk "^2.3.2"
     commander "^2.15.1"
