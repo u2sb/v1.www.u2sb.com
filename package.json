@@ -6,6 +6,7 @@
     "dev": "vuepress dev docs --debug",
     "build": "vuepress build docs"
   },
+  "private": "true",
   "devDependencies": {},
   "description": "我们在做一些很帅的事",
   "dependencies": {
@@ -22,9 +23,9 @@
     "vuepress-plugin-one-click-copy": "^1.0.6",
     "vuepress-plugin-pangu": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-plugin-smplayer": "1",
+    "vuepress-plugin-smplayer": "^1",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.8",
-    "vuepress-theme-vdoing": "^1.11.3"
+    "vuepress-theme-vdoing": "^1.12.3"
   }
 }

@@ -21,6 +21,10 @@ export default <Array<NavItem>>[
         text: "hexo-tag-mmedia",
         link: "/open-sw/#hexo-tag-mmedia",
       },
+      {
+        text: "BiliBili弹幕解析",
+        link: "/open-sw/#Danmu.Bili",
+      },
     ],
   },
   {
