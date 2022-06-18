@@ -18,6 +18,10 @@ export default <Array<NavItem>>[
         link: "/open-sw/#vuepress-plugin-smplayer",
       },
       {
+        text: "vuepress-plugin-vssue-global",
+        link: "https://github.com/u2sb/vuepress-plugin-vssue-global",
+      },
+      {
         text: "hexo-tag-mmedia",
         link: "/open-sw/#hexo-tag-mmedia",
       },

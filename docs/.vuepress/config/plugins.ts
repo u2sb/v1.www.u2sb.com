@@ -48,4 +48,20 @@ export default <UserPlugins>[
     },
   ],
   ["fulltext-search"],
+  [
+    "vuepress-plugin-vssue-global",
+    {
+      platform: "github-v4",
+      title: "[Comment]<%- frontmatter.title %>",
+      needComments: true,
+      // 其他的 Vssue 配置
+      clientId: "7b8bed21c94a97015e77",
+      clientSecret: "9e0815a9c50ba3cad8da138d14d4a179be691467",
+      owner: "u2sb",
+      repo: "www.u2sb.com",
+      admins: ["u2sb", "MonoLogueChi"],
+      locale: "zh-CN",
+      perPage: 12,
+    },
+  ],
 ];
