@@ -26,8 +26,8 @@ export default <Array<NavItem>>[
         link: "/open-sw/#hexo-tag-mmedia",
       },
       {
-        text: "BiliBili弹幕解析",
-        link: "/open-sw/#Danmu.Bili",
+        text: "通用弹幕服务器",
+        link: "/open-sw/#Danmu.Server",
       },
     ],
   },

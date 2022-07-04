@@ -24,7 +24,6 @@ export default <UserPlugins>[
       },
     } as SmPlayerPluginOption,
   ],
-  ["typescript"],
   ["pangu"],
   [
     "one-click-copy",
