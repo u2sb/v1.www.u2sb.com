@@ -17,28 +17,14 @@ export default {
             url: "/assets/video/s_720.mp4",
             plugins: [
               artplayerPluginDanmuku({
-                danmuku: async () => {
-                  let res = await Promise.all(
-                    [
-                      fetch(bilibiliDanmaku),
-                      fetch(`${danmakuApi}/${danmakuId}.json`)
-                    ]);
-
-                  let a = [];
-
-                  for (let i = 0; i < res.length; i++) {
-                    if (res[i].ok) {
-                      let j = await res[i].json();
-                      if (j.code === 0) {
-                        if (j.data && j.data.length > 0) {
-                          a = a.concat(j.data);
-                        }
-                      }
-                    }
-                  }
-
-                  return a;
-                },
+                danmuku: () => Promise.allSettled(
+                  [
+                    fetch(bilibiliDanmaku).then(res => res.json()),
+                    fetch(`${danmakuApi}/${danmakuId}.json`).then(res => res.json())
+                  ])
+                  .then(res => res.filter(r => r.status === "fulfilled").map(r => r.value))
+                  .then(res => res.filter(r => r["code"] !== undefined && r["code"] === 0 && r["data"] !== undefined && r["data"].length > 0)
+                    .reduce((acc, cur) => acc.concat(cur["data"]), [])),
                 speed: 5, // 弹幕持续时间，单位秒，范围在[1 ~ 10]
                 opacity: 1, // 弹幕透明度，范围在[0 ~ 1]
                 fontSize: 25, // 字体大小，支持数字和百分比
