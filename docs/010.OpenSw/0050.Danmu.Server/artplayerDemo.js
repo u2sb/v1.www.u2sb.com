@@ -3,7 +3,7 @@ const danmakuApi = "https://danmu.u2sb.com/api/artplayer/v1";
 const bilibiliDanmaku = `${danmakuApi}/bilibili/BV1zt411t79A.json`;
 
 export default {
-  mounted() {
+  async mounted() {
     this.$nextTick(() => {
       Promise.all([
         import("artplayer"),
@@ -17,21 +17,28 @@ export default {
             url: "/assets/video/s_720.mp4",
             plugins: [
               artplayerPluginDanmuku({
-                danmuku: () => Promise.all(
-                  [
-                    fetch(bilibiliDanmaku)
-                      .then((res) => res.json()).then((res) => res.data),
-                    fetch(`${danmakuApi}/${danmakuId}.json`)
-                      .then((res) => res.json()).then((res) => res.data),
-                  ]).then((res) => {
-                    let a = [];
-                    res.forEach((item) => {
-                      if (item && item.length > 0)
-                        a = a.concat(item);
-                    });
-                    return a;
-                  })
-                ,
+                danmuku: async () => {
+                  let res = await Promise.all(
+                    [
+                      fetch(bilibiliDanmaku),
+                      fetch(`${danmakuApi}/${danmakuId}.json`)
+                    ]);
+
+                  let a = [];
+
+                  for (let i = 0; i < res.length; i++) {
+                    if (res[i].ok) {
+                      let j = await res[i].json();
+                      if (j.code === 0) {
+                        if (j.data && j.data.length > 0) {
+                          a = a.concat(j.data);
+                        }
+                      }
+                    }
+                  }
+
+                  return a;
+                },
                 speed: 5, // 弹幕持续时间，单位秒，范围在[1 ~ 10]
                 opacity: 1, // 弹幕透明度，范围在[0 ~ 1]
                 fontSize: 25, // 字体大小，支持数字和百分比
